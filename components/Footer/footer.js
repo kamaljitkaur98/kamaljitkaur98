@@ -10,7 +10,7 @@ export default function footer(){
               <div className={`container`}>
                   <div className={`row pt-5`}>
                       <div className={`col-12 col-sm-3 text-sm-right text-center`}>
-                      <Image src="/smartfarm.png" alt="Cataract Detection and Classification" width="200px" height="200px" className={` ${styles.image}`}/>
+                      <Image src="/self.jpeg" alt="self-image" width="200px" height="200px" className={` ${styles.image}`}/>
                       </div>
                       <div className={`col-12 col-sm-9 text-center mt-4`}>
                         <h4 className={`pt-3 ${styles.heading}`}>Let's Start A Conversation</h4>
