@@ -7,25 +7,25 @@ export default function volunteer() {
         first: {
             title: "Cataract Detection and Classification",
             description: "Classification of an eye image into cataract or normal eye.Comparative study between the various feature extraction and machine learning algorithms.Further classification on the intensity of cataract namely Mild and Severe using deep learning.Conference paper published at Cataract detection using textural features and Machine learning algorithms.",
-            image: "/cataract.png",
+            image: "/cataract.PNG",
             url : "https://github.com/kamaljitkaur98/Cataract-Detection-and-Classification"
         },
         second : {
             title: "IOT based solution to smart farming",
             description : "A sensor network environment built to monitor the various physical parameters at a farm such as smoke, temperature, humidity and moisture using Raspberry Pi. Also analyzing the results to develop a predictive model to forecast weather.Camera based surveillance for monitoring trespassing the farm land. The results acessible via a Flask-based GUI.",
-            image : "/smartfarm.png",
+            image : "/smartfarm.PNG",
             url : "https://github.com/kamaljitkaur98/IoT-based-Smart-Farming-using-Machine-learning"
         },
         third : {
             title : "Movie review search application",
             description: "API Used: Imdb developers API https://developer.imdb.com/ which contain a dataset of movies and TV series implemented on an easy to search and interactive react based user interface. State Management achieved using Redux",
-            image : "/movie.png",
+            image : "/movie.PNG",
             url :"https://github.com/kamaljitkaur98/movie-search-web-application"
         },
         fourth: {
             title: "RAIT ADMISSION CHATBOT",
             description : "Whatsapp and Telegram integrated Chabot that can be used to get admission related queries solved without visiting the college and information of events and notices post-admission. Currently in process of filling Copyright for the same.",
-            image: "/chatbot.png",
+            image: "/chatbot.PNG",
             url : "http://t.me/rait_admission_bot"
         }
     }
