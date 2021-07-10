@@ -1,0 +1,71 @@
+.canvas {
+    background-color: black;
+    overflow: hidden;
+}
+
+.leftSide {
+    font-size:80px;
+    writing-mode: vertical-lr;
+    text-align: center;
+    line-height: .9;
+    transform: rotate(180deg);
+    float: right;
+    margin: 0;
+    margin-top: 35vh;
+    font-family: "didot";
+    color: #0ff;
+}
+
+.rightSide {
+    font-size:80px;
+    margin: 0;
+    writing-mode: vertical-lr;
+    line-height: .9;
+    margin-top: 15vh;
+    font-family: "didot";
+    float: left;
+    color: #0ff;
+}
+
+.textLeft {
+    text-align: right;
+    margin: 0;
+    color: bisque;
+}
+
+.textRight {
+    float: left;
+    margin: 0;
+    color: bisque;
+}
+
+.stick {
+    padding: 0;
+}
+
+.leftTop {
+    margin-top: 40% !important;
+}
+
+.rightTop {
+    margin-top: 15% !important;
+}
+
+@media screen and (max-width: 426px){
+    .leftSide {
+        font-size: 60px;
+        margin-top: 25vh;
+    }
+    .textLeft {
+        margin-right: 60px;
+        margin-bottom: 1rem !important;
+    }
+    .rightSide {
+        font-size:70px;
+    }
+    .textRight {
+        margin-left: 70px;
+        float: none;
+        margin-bottom: 1rem !important;
+    }
+}

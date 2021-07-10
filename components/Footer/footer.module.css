@@ -1,0 +1,29 @@
+.wrapper {
+  bottom: 0;
+  background-color: black;
+  color: aqua;
+  padding-bottom: 20px;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.IconStyle {
+  font-size: 35px;
+  margin-right: 50px;
+}
+
+.heading {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.anchor:hover {
+  color: aqua;
+}
+
+@media screen and (max-width: 426px){
+  .anchor {
+    margin-left: 30px;
+  }
+}

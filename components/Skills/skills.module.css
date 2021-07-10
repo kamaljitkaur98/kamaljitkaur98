@@ -1,0 +1,26 @@
+.headings {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: black;
+    font-size: 30px;
+}
+
+.canvas {
+    background-color: #00ffff;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width:426px) {
+    .size {
+        height: 50px !important;
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .size {
+        height: 50px !important;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}

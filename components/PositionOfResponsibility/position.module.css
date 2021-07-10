@@ -1,0 +1,45 @@
+
+.heading {
+    color: black;
+    font-family: 'Georgia, "Times New Roman", Times, serif';
+}
+
+.text {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.position {
+    color: black;
+    font-family: cursive;
+    transform: rotate(-10deg);
+    transform-origin: 0 0;
+    position: relative;
+    top: 50%
+}
+
+@media screen and (max-width: 320px){
+    .position {
+        font-size: 15px;
+    }
+}
+
+.date {
+    color: black;
+    text-transform: uppercase;
+}
+
+.description {
+    color: black;
+}
+
+.organization {
+    color: black;
+    text-transform: capitalize;
+}
+
+.canvas {
+    background-color: #0ff;
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,25 @@
+.canvas {
+    background-color: black;
+}
+.para {
+    margin-bottom: 0 !important;
+    color: #4bc1ac;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase;
+}
+
+.heading {
+    color: #4bc1ac;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.description {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+
+@media only screen and (max-width:375px){
+    .para {
+        text-transform: none;
+    }
+}

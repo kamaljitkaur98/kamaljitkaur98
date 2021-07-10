@@ -1,0 +1,24 @@
+.navbar {
+    background:black;
+    color:aqua;
+}
+
+.navlink {
+   font-size: larger;
+   font-family: 'Georgia, "Times New Roman", Times, serif';
+}
+
+.navlink:hover {
+    text-decoration: none;
+    color: aqua;
+    cursor: pointer;
+}
+
+.icon {
+    background-image: url("/icon.png")
+}
+
+
+
+
+
