@@ -1,6 +1,6 @@
 import styles from './position.module.css';
 import React from 'react';
-import Image from 'next/image'
+import Image from "next/legacy/image"
 
 export default function positions(){
     const style = {
