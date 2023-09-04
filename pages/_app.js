@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Kamaljit Aulakh</title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="icon" type="image/x-icon" href="waving-hand.png"></link>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossOrigin="anonymous"></link>
         <script src="https://kit.fontawesome.com/e20sdfsd9.js" crossOrigin="anonymous"></script>
       </Head>
