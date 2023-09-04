@@ -60,7 +60,7 @@ export default function positions(){
                     </p>
                    </div>
                    <div className={`col-12 col-sm-7 text-center`}>
-                        <Image src="/bitmoji.png" alt="Bitmoji avatar Image" width="200px" height="200px" style={style}/>
+                        <Image src="/bitmoji.png" alt="Bitmoji avatar Image" width="200" height="200" style={style}/>
                     </div>
                </div>
             {

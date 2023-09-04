@@ -1,6 +1,5 @@
 import styles from './volunteer.module.css';
 import Image from 'next/image'
-import { urlObjectKeys } from 'next/dist/next-server/lib/utils';
 
 export default function volunteer() {
     const projects = {
@@ -41,7 +40,7 @@ export default function volunteer() {
                     <div className={`col-12 col-sm-6`}>
                         <div className="text-center mt-2">
                             <a href={projects[item].url}>
-                                <Image src={projects[item].image} alt={projects[item].title} width="300px" height="200px"/>
+                                <Image src={projects[item].image} alt={projects[item].title} width="300" height="200"/>
                             </a>
                             <p className={`${styles.para}`}>{projects[item].title}</p>
                         </div>

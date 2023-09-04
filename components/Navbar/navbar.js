@@ -21,16 +21,16 @@ export default function Navbar(){
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mr-5" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <Link href="/#main">
-                            <a className={` ${styles.navlink}`}><i class="fas fa-laptop-house mr-2"></i>Home</a>
+                        <Link href="/#main" className={` ${styles.navlink}`}>
+                            <i class="fas fa-laptop-house mr-2"></i>Home
                         </Link>
                         </li>
                         <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <Link href="/#education">
-                        <a className={` ${styles.navlink}`}><i class="fas fa-user-graduate mr-2"></i>Under Grad</a>
+                        <Link href="/#education" className={` ${styles.navlink}`}>
+                        <i class="fas fa-user-graduate mr-2"></i>Under Grad
                         </Link> 
                         </li>
-                        <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
+                        {/* <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
                         <Link href="/#skills"><a className={` ${styles.navlink}`}><i class="fas fa-hands-helping mr-2"></i>Skills</a></Link>  
                         </li>
                         <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
@@ -42,7 +42,7 @@ export default function Navbar(){
                          
                         <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
                         <Link href="/#connect"><a className={` ${styles.navlink}`} onClick={toggle}><i class="fas fa-inbox mr-2"></i>Connect</a></Link>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </nav>
