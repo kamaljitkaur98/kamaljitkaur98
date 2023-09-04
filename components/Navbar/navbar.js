@@ -19,30 +19,25 @@ export default function Navbar(){
                         <span className={`navbar-toggler-icon ${styles.icon}`}></span>
                     </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav nav-fill w-100">
                         <li class="nav-item mr-5" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <Link href="/#main" className={` ${styles.navlink}`}>
-                            <i class="fas fa-laptop-house mr-2"></i>Home
-                        </Link>
+                            <Link href="/#main" className={` ${styles.navlink}`}> HOME </Link>
                         </li>
                         <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <Link href="/#education" className={` ${styles.navlink}`}>
-                        <i class="fas fa-user-graduate mr-2"></i>Under Grad
-                        </Link> 
-                        </li>
-                        {/* <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <Link href="/#skills"><a className={` ${styles.navlink}`}><i class="fas fa-hands-helping mr-2"></i>Skills</a></Link>  
+                            <Link href="/#education" className={` ${styles.navlink}`}> EDUCATION </Link> 
                         </li>
                         <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <Link href="/#volunteer"><a className={` ${styles.navlink}`}><i class="fas fa-code mr-2"></i>Projects</a></Link>  
+                            <Link href="/#skills" className={` ${styles.navlink}` }> SKILLS </Link>  
                         </li>
                         <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <Link href="/#positions"><a className={` ${styles.navlink}`}><i class="fas fa-hands-helping mr-2"></i>Volunteer</a></Link>  
+                            <Link href="/#volunteer" className={` ${styles.navlink}`}> PROJECTS </Link>  
                         </li>
-                         
                         <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <Link href="/#connect"><a className={` ${styles.navlink}`} onClick={toggle}><i class="fas fa-inbox mr-2"></i>Connect</a></Link>
-                        </li> */}
+                            <Link href="/#positions" className={` ${styles.navlink}`}> VOLUNTEER </Link>  
+                        </li>
+                        <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <Link href="/#connect" onClick={toggle} className={` ${styles.navlink}`}> CONNECT </Link>
+                        </li>
                     </ul>
                 </div>
             </nav>
