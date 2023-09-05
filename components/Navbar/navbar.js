@@ -24,7 +24,7 @@ export default function Navbar(){
                             <Link href="/#main" className={` ${styles.navlink}`}> HOME </Link>
                         </li>
                         <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
-                            <Link href="/#education" className={` ${styles.navlink}`}> EDUCATION </Link> 
+                            <Link href="/#background" className={` ${styles.navlink}`}> BACKGROUND </Link> 
                         </li>
                         <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
                             <Link href="/#skills" className={` ${styles.navlink}` }> SKILLS </Link>  
