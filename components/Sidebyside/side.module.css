@@ -11,7 +11,8 @@
     transform: rotate(180deg);
     float: right;
     margin: 0;
-    margin-top: 35vh;
+    margin-top: 30vh;
+    margin-bottom: 5vh;
     font-family: "didot";
     color: #0ff;
 }
@@ -22,6 +23,7 @@
     writing-mode: vertical-lr;
     line-height: .9;
     margin-top: 15vh;
+    margin-bottom: 5vh;
     font-family: "didot";
     float: left;
     color: #0ff;
@@ -30,13 +32,14 @@
 .textLeft {
     text-align: right;
     margin: 0;
+    margin-bottom: 1vh;
     color: bisque;
 }
 
 .textRight {
-    float: left;
     margin: 0;
     color: bisque;
+    margin-bottom: 5vh;
 }
 
 .stick {
@@ -44,7 +47,7 @@
 }
 
 .leftTop {
-    margin-top: 40% !important;
+    margin-top: 35% !important;
 }
 
 .rightTop {
