@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background: aqua;
+    background: black;
     overflow: overlay;
     scroll-behavior: smooth;
 }
@@ -19,6 +19,6 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: aqua; 
+  background: black; 
   border-radius: 5px;
 }

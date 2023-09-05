@@ -4,7 +4,7 @@ export default function side() {
     const education = require("./education.json")
     const experiences = require("./experience.json")
     return (
-        <div id="background">
+        <div id="background" className='content light'>
             <div className={`container-fluid ${styles.canvas}`}>
                 <div className={`row`}>
                     <div className={`col-12 col-sm ${styles.stick}`}>

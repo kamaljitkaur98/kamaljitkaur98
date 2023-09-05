@@ -1,7 +1,7 @@
 .wrapper {
   bottom: 0;
   background-color: black;
-  color: aqua;
+  color: whitesmoke;
   padding-bottom: 20px;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .heading {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  color: aqua !important;
 }
 
 .anchor:hover {

@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './navbar.module.css';
 import Link from 'next/link';
-import $ from 'jquery';
 
 
 export default function Navbar(){
@@ -11,10 +10,10 @@ export default function Navbar(){
             $(".navbar-collapse").collapse('hide');
         });
     }
-
+    
     return(
         <React.Fragment>
-            <nav className={`${styles.navbar} navbar navbar-expand-lg fixed-top`}>
+            <nav id="sticky" className={`${styles.navbar} navbar navbar-expand-lg fixed-top`}>
                     <button className={`navbar-toggler navbar-toggle`} type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className={`navbar-toggler-icon ${styles.icon}`}></span>
                     </button>

@@ -2,7 +2,7 @@ import styles from './glitch.module.css';
 
 export default function glitchText() {
     return (
-        <div>
+        <div className='content light'>
             <div className={styles.hero}>
                 <h1 className={styles.headings}>Hello ! My Name is</h1>
             </div>

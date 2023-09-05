@@ -14,9 +14,9 @@ export default function Home() {
       <Navbar />
       <VideoBg></VideoBg>
       <GlitchText></GlitchText>
-      <Card marginLeft="5%" marginTop="10vh" />
+      <Card marginLeft="5%" />
       <Side />
-      <Skills />
+      {/* <Skills /> */}
       <Volunteer />
       <Position />
       <Footer />

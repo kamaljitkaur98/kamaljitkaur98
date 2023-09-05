@@ -11,7 +11,7 @@
     transform: rotate(180deg);
     float: right;
     margin: 0;
-    margin-top: 30vh;
+    margin-top: 25vh;
     margin-bottom: 5vh;
     font-family: "didot";
     color: #0ff;
@@ -22,7 +22,7 @@
     margin: 0;
     writing-mode: vertical-lr;
     line-height: .9;
-    margin-top: 15vh;
+    margin-top: 10vh;
     margin-bottom: 5vh;
     font-family: "didot";
     float: left;

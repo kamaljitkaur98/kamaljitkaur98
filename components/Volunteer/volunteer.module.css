@@ -1,21 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
 .canvas {
     background-color: black;
 }
 .para {
     margin-bottom: 0 !important;
-    color: #4bc1ac;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    text-transform: uppercase;
+    color: aqua;
+    font-family: 'didot';
+    font-size: 20px;
 }
 
 .heading {
-    color: #4bc1ac;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    color: aqua;
+    font-family: 'didot';
+    font-size: 25px
 }
 
 .description {
-    font-family: 'Courier New', Courier, monospace;
     color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
 }
 
 @media only screen and (max-width:375px){
