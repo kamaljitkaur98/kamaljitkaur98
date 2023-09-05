@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 .heading {
     color: aqua;
-    font-family: 'Georgia, "Times New Roman", Times, serif';
+    font-family: 'didot';
 }
 
-.text {
+.text, .description, .date, .organization {
     color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .position {
@@ -16,8 +18,25 @@
     transform-origin: 0 0;
     position: relative;
     top: 50%;
-    font-family: 'didot';
-    font-size: 30px
+    font-family: 'Satisfy', cursive;
+    font-size: 25px
+}
+
+.date {
+    font-size: 13px;
+}
+
+.description {
+    font-size: 14px;
+}
+
+.organization {
+    text-transform: capitalize;
+}
+
+.canvas {
+    background-color: black;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 320px){
@@ -26,22 +45,5 @@
     }
 }
 
-.date {
-    color: whitesmoke;
-    text-transform: uppercase;
-}
 
-.description {
-    color: whitesmoke;
-}
-
-.organization {
-    color: whitesmoke;
-    text-transform: capitalize;
-}
-
-.canvas {
-    background-color: black;
-    margin-bottom: 20px;
-}
 

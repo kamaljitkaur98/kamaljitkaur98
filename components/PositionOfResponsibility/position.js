@@ -72,7 +72,7 @@ export default function positions(){
                 <div className={`col-8`}>
                     <p> <span className={`${styles.organization}`}>{information[item].Organization}</span>
                         <br></br>
-                        <span className={`${styles.date}`}>{information[item].Date}</span>
+                        <span className={`${styles.date}`}><i>{information[item].Date}</i></span>
                         <br></br>
                         <span className={`${styles.description}`}>{information[item].Description}</span>
                     </p>
