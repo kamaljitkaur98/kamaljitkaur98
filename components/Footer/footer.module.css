@@ -16,6 +16,7 @@
 
 .heading {
   color: aqua !important;
+  font-family: 'didot';
 }
 
 .anchor:hover {

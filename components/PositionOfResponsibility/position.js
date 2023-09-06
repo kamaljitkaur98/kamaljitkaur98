@@ -7,44 +7,8 @@ export default function positions(){
         marginTop: 0
     }
 
-    const information = {
-        First: {
-            Position: "Speaker",
-            Date: "21 June - 23 June 2020",
-            Organization: "Software development Group (SDG) RAIT summer internship program",
-            Description: "Delivered a session on basics of web development with focus on responsive design using Bootstrap 4"
-        },
-        Second: {
-            Position: "Vice President",
-            Date: "June 2020 - August 2021",
-            Organization: "Computer Society of India - RAIT student Chapter",
-            Description: "Organizing various events, Tech-talks, workshops on cutting-edge technologies.Taking part in final decisions related to the various committee matters.Leading and mentoring the Junior Committee"
-        },
-        Third: {
-            Position: "Publicity Head",
-            Date: "July 2019 - Jun 2020",
-            Organization: "Computer Society of India - RAIT student Chapter",
-            Description: "Leading team of 100+ members. Promoting workshops and talks among local colleges. Publicity of TECHMATE 2019 across all major technical and non-technical colleges of Mumbai. Awarded with the title of 'Best Domain' for excellence of performance"
-        },
-        Fourth: {
-            Position: "Volunteer",
-            Date: "November 2019",
-            Organization: "Avishkar - National Level Project Presentation Competition",
-            Description: "Managed the participants records and queries while in the organizing team of Zonal level round of Avishkar"
-        },
-        Fifth : {
-            Position: "Membership Co-head",
-            Date: "July 2018 - July 2019",
-            Organization: "Computer Society of India - RAIT student Chapter",
-            Description: "Promoting RAIT culture and encouraging young mass in our college to participate in technical committee of the college.Maintaining the database of active and alumni members. Awarded with the title of 'Best Junior Committee Member' for excellence of performance"
-        },
-        Sixth : {
-            Position: "Campus Ambassador",
-            Date: "September 2018 - January 2019",
-            Organization: "IIT Kanpur",
-            Description: "Communicating events and collaborations between RAIT and IIT Kanpur Campus"
-        }
-    }
+    const information = require("./volunteerpositions.json")
+
     return(
        <div className={` ${styles.canvas}`} id="positions">
            <div className={`container`}>
@@ -74,7 +38,11 @@ export default function positions(){
                         <br></br>
                         <span className={`${styles.date}`}><i>{information[item].Date}</i></span>
                         <br></br>
-                        <span className={`${styles.description}`}>{information[item].Description}</span>
+                        {
+                            Array.from(information[item].Description).map((child, index) => {
+                                return <><span key={index} className={`${styles.description}`}>{child}</span><br></br></>
+                            })
+                        }                        
                     </p>
                 </div>
             </div>

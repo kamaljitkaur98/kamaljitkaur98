@@ -14,10 +14,9 @@
 .position {
     color: whitesmoke;
     font-family: cursive;
-    transform: rotate(-10deg);
     transform-origin: 0 0;
     position: relative;
-    top: 50%;
+    top: 40%;
     font-family: 'Satisfy', cursive;
     font-size: 25px
 }
