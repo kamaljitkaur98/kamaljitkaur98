@@ -13,12 +13,14 @@
 
 .position {
     color: whitesmoke;
-    font-family: cursive;
     transform-origin: 0 0;
     position: relative;
     top: 40%;
     font-family: 'Satisfy', cursive;
-    font-size: 25px
+    font-size: 25px;
+    padding-right: .5em;
+    text-decoration: underline aqua;
+    text-decoration-thickness: 2px;
 }
 
 .date {

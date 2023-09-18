@@ -1,8 +1,24 @@
 import styles from './position.module.css';
 import React from 'react';
-import Image from "next/legacy/image"
+import Image from "next/legacy/image";
+import { motion } from 'framer-motion';
 
 export default function positions(){
+
+    const animationSetting = {
+        hide: {
+            opacity: 0,
+            x: -500,
+        },
+        show: {
+            opacity: 1,
+            x: 0,
+            transition: {
+                duration: 2,
+            },
+        },
+    };
+
     const style = {
         marginTop: 0
     }
@@ -27,27 +43,33 @@ export default function positions(){
                         <Image src="/bitmoji.png" alt="Bitmoji avatar Image" width="200" height="200" style={style}/>
                     </div>
                </div>
-            {
-                Object.keys(information).map((item,key) =>(
-                    <div className={`row pt-4`}>
-                        <div className={'col-4 text-center'}>
-                            <h5 className={` ${styles.position} `}>{information[item].Position}</h5>
-                        </div>
-                <div className={`col-8`}>
-                    <p> <span className={`${styles.organization}`}>{information[item].Organization}</span>
-                        <br></br>
-                        <span className={`${styles.date}`}><i>{information[item].Date}</i></span>
-                        <br></br>
-                        {
-                            Array.from(information[item].Description).map((child, index) => {
-                                return <><span key={index} className={`${styles.description}`}>{child}</span><br></br></>
-                            })
-                        }                        
-                    </p>
+               <motion.header
+                    initial="hide"
+                    whileInView="show"
+                    exit="hide"
+                    variants={animationSetting}>
+                {
+                    Object.keys(information).map((item,key) =>(
+                        <div className={`row pt-4`}>
+                            <div className={'col-4 text-center'}>
+                                <h5 className={` ${styles.position} `}>{information[item].Position}</h5>
+                            </div>
+                    <div className={`col-8`}>
+                        <p> <span className={`${styles.organization}`}>{information[item].Organization}</span>
+                            <br></br>
+                            <span className={`${styles.date}`}><i>{information[item].Date}</i></span>
+                            <br></br>
+                            {
+                                Array.from(information[item].Description).map((child, index) => {
+                                    return <><span key={index} className={`${styles.description}`}>{child}</span><br></br></>
+                                })
+                            }                        
+                        </p>
+                    </div>
                 </div>
-            </div>
-                ))
-            }
+                    ))
+                }
+            </motion.header>
            </div>
        </div>
     )

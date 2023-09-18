@@ -19,7 +19,7 @@
   font-family: 'didot';
 }
 
-.anchor:hover {
+.anchor, .anchor:hover {
   color: aqua;
 }
 

@@ -1,10 +1,26 @@
+import { motion } from 'framer-motion';
+
 export default function Card(props) {
+
+    const animationSetting = {
+        hide: {
+            opacity: 0,
+            x: -500,
+        },
+        show: {
+            opacity: 1,
+            x: 0,
+            transition: {
+                duration: 2,
+            },
+        },
+    };
+
     return (
         <div>
             <style jsx>
                 {
                     `
-
                     .cardboard {
                         background-color: aqua;
                         margin-top: ${props.marginTop};
@@ -51,16 +67,22 @@ export default function Card(props) {
                     `
                 }
             </style>
-            <div className="cardboard mb-5 content dark">
-                <div className="card-body">
-                    <h1>More ABOUT ME</h1>
-                    <p>I am an experienced Software Engineer currently pursuing a Master's degree in Computer Science at Syracuse University. 
-                        My professional passion lies in the realm of web development, where I specialize in utilizing Java and JavaScript frameworks to create exceptional projects. 
-                        I possess a strong dedication to enhancing user experiences through meticulous research and implementation of best-in-class UI/UX practices. 
-                        Additionally, I have a keen interest in competitive programming, utilizing both Python and Java, which serves as a valuable tool for honing my problem-solving abilities.<br></br>
-                    </p>
-                </div>
-            </div>
+            <motion.header
+                    initial="hide"
+                    whileInView="show"
+                    exit="hide"
+                    variants={animationSetting}>
+                    <div className="cardboard mb-5 content dark">
+                        <div className="card-body">
+                            <h1>More ABOUT ME</h1>
+                            <p>I am an experienced Software Engineer currently pursuing a Master's degree in Computer Science at Syracuse University. 
+                                My professional passion lies in the realm of web development, where I specialize in utilizing Java and JavaScript frameworks to create exceptional projects. 
+                                I possess a strong dedication to enhancing user experiences through meticulous research and implementation of best-in-class UI/UX practices. 
+                                Additionally, I have a keen interest in competitive programming, utilizing both Python and Java, which serves as a valuable tool for honing my problem-solving abilities.<br></br>
+                            </p>
+                        </div>
+                    </div>
+            </motion.header>
         </div>
     )
 }
