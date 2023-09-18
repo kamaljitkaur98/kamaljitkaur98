@@ -1,8 +1,23 @@
 import styles from './volunteer.module.css';
-import Image from 'next/image'
-import { urlObjectKeys } from 'next/dist/next-server/lib/utils';
+import Image from "next/legacy/image"
+import { motion } from 'framer-motion';
 
 export default function volunteer() {
+
+    const animationSetting = {
+        hide: {
+            opacity: 0,
+            x: -500,
+        },
+        show: {
+            opacity: 1,
+            x: 0,
+            transition: {
+                duration: 2,
+            },
+        },
+    };
+
     const projects = {
         first: {
             title: "Cataract Detection and Classification",
@@ -35,21 +50,29 @@ export default function volunteer() {
                 <div className={`row`}>
                     <div className={`col text-center ${styles.heading}`}><h1 className={`pt-3`}>Projects</h1></div>
                 </div>
+                <motion.header
+                    initial="hide"
+                    whileInView="show"
+                    exit="hide"
+                    variants={animationSetting}>
                 <div className={`row mt-3`}>
                 {
                     Object.keys(projects).map((item,key) => (  
-                    <div className={`col-12 col-sm-6`}>
-                        <div className="text-center mt-2">
-                            <a href={projects[item].url}>
-                                <Image src={projects[item].image} alt={projects[item].title} width="300px" height="200px"/>
-                            </a>
-                            <p className={`${styles.para}`}>{projects[item].title}</p>
-                        </div>
-                        <p className={`mt-2 ${styles.description}`}>{projects[item].description}</p>
-                    </div> 
+                    
+                        <div className={`col-12 col-sm-6`}>
+                            <div className="text-center mt-2">
+                                <a href={projects[item].url}>
+                                    <Image src={projects[item].image} alt={projects[item].title} width="300" height="200"/>
+                                </a>
+                                <p className={`${styles.para}`}>{projects[item].title}</p>
+                            </div>
+                            <p className={`mt-2 ${styles.description}`}>{projects[item].description}</p>
+                        </div> 
+                    
                     ))
                 }
                  </div>
+                 </motion.header>
             </div>
         </div>
     )
