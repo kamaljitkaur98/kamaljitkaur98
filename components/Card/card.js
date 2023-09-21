@@ -5,11 +5,11 @@ export default function Card(props) {
     const animationSetting = {
         hide: {
             opacity: 0,
-            x: -500,
+            x: -200,
         },
         show: {
             opacity: 1,
-            x: 0,
+            x : 0,
             transition: {
                 duration: 2,
             },
