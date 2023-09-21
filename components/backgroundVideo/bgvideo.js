@@ -5,8 +5,8 @@ export default function BgVideo() {
     const video = 'smoke.mp4';
 
     return (
-        <div>
-            <div className={styles.frame} id="main">
+        <div className='content light'>
+            <div className={ `${styles.frame}`} id="main">
                 <video autoPlay="autoplay" loop="loop" muted className={styles.video}>
                     <source src={video} />
                 </video>

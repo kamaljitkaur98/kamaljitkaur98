@@ -4,14 +4,35 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background: aqua;
+    background: black;
     overflow: overlay;
     scroll-behavior: smooth;
+    cursor: none;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.cursor {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 50%;
+  background: transparent;
+  pointer-events: none;
+  z-index: 111;
+  border: 1px solid aqua;
+}
+
+.dot{
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: aqua;
+  top: 40%;
+  left: 40%;
+  position: absolute;
 }
 
 ::-webkit-scrollbar {
@@ -19,6 +40,6 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background:aqua; 
+  background: black; 
   border-radius: 5px;
 }

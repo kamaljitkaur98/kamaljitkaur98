@@ -1,0 +1,26 @@
+{
+    "1": {
+        "institute": "Syracuse University",
+        "degree": "Master's in Computer and Information Sciences",
+        "grade": "GPA: Yet to complete first semester",
+        "period": "August 2023 - May 2025"
+    },
+    "2" : {
+        "institute": "Mumbai University",
+        "degree": "Bachelor's of Engineering in Information Techology",
+        "grade": "CGPA: 9.22 on scale of 10",
+        "period": "August 2017 - June 2021"
+    },
+    "3" : {
+        "institute": "St.Mary's High School and Junior college",
+        "degree": "Higher Secondary School Certificate",
+        "grade": "Percentage: 88.31%",
+        "period": "September 2015 - March 2017"
+    },
+    "4" : {
+        "institute": "St. Xavier's High School and Junior College",
+        "degree": "Secondary School Certificate",
+        "grade": "Percentage: 90.80%",
+        "period": "August 2015"
+    }
+}

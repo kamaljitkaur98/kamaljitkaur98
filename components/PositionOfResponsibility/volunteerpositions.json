@@ -1,0 +1,58 @@
+{   
+    "First":{
+        "Position": "Facilitator - Technical Talk",
+        "Date": "5 November 2022",
+        "Organization": "Ramrao Adik Institute Of Technology, Department of Information Technology",
+        "Description": [
+            "◦ Conducted a session to delve into contemporary web development practices within the industry, with a particular emphasis on microservices and microsite architecture.",
+            "◦ Delivered a concise overview of diverse deployment mechanisms within a containerized environment, leveraging cloud infrastructure such as AWS, as well as public or private infrastructure through Kubernetes.",
+            "◦ Highlighted the significance of employing tools and mechanisms to ensure code quality, including software solutions like SonarQube and Checkmarx.",
+            "◦ Provided a brief yet informative overview of the importance of adhering to security protocols when developing systems ready for production."
+        ]
+    },
+    "Second": {
+        "Position": "Instructor",
+        "Date": "21 June 2020 - 23 June 2020",
+        "Organization": "Software Development Group RAIT summer internship program",
+        "Description": [
+            "◦ Walkthrough on the fundamentals of recommended UX practices and UI design using Figma.",
+            "◦ Three-day session on the basics of responsive web design using Bootstrap.",
+            "◦ The session encompassed the design of a simple backend database and server-side logic to perform CRUD operations.",
+            "◦ To maintain simplicity throughout the session, the backend was developed using MySQL and PHP."
+        ]
+    },
+    "Third": {
+        "Position": "Vice President",
+        "Date": "June 2020 - August 2021",
+        "Organization": "Computer Society of India - RAIT student Chapter",
+        "Description": [
+            "◦ Offered visionary guidance and mentorship to the junior committee, ensuring the seamless operation of various departments such as sponsorship, publicity, and design.",
+            "◦ Orchestrated technical talks, workshops on cutting-edge technologies, and e-sports events throughout the year.",
+            "◦ Promoted member engagement in technical research and departmental projects through collaboration with the head of the department",
+            "◦ Played a pivotal role in budget allocation for committee activities and the annual university technical festival."
+        ]
+    },
+    "Fourth": {
+        "Position": "Publicity Head",
+        "Date": "July 2019 - June 2020",
+        "Organization": "Computer Society of India - RAIT student Chapter",
+        "Description": [
+            "◦ Devised a comprehensive strategy to promote a wide array of technical events to students from across the city.",
+            "◦ Led a team of 102 members to disseminate information about the annual technical festival and hackathon to a state and national audience, respectively.",
+            "◦ Cultivated and managed the online presence of these events by curating and sharing relevant content across various social media platforms, utilizing tools like Adobe InDesign and Canva.",
+            "◦ Collaborated with the technical team to transition from traditional paper-based event tickets to a QR code entry system.",
+            "◦ Maintained meticulous records of the funds collected as entry fees for workshops and events."
+        ]
+    },
+    "Fifth" : {
+        "Position": "Membership Co-head",
+        "Date": "July 2018 - July 2019",
+        "Organization": "Computer Society of India - RAIT student Chapter",
+        "Description": [
+            "Devised and implemented strategies to draw in new committee members through orientation sessions and on-campus meetups.",
+            "Maintained a comprehensive database containing essential information on both active and alumni committee members, including membership expiration dates.",
+            "Acted as the primary point of contact for all membership-related inquiries and information.",
+            "Addressed member issues and actively solicited and incorporated member suggestions and feedback."
+        ]
+    }
+}
