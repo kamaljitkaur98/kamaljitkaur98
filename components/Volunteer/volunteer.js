@@ -7,7 +7,7 @@ export default function volunteer() {
     const animationSetting = {
         hide: {
             opacity: 0,
-            x: -500,
+            x: -200,
         },
         show: {
             opacity: 1,
