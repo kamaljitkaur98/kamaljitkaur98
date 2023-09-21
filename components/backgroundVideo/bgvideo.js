@@ -1,4 +1,3 @@
-import VideoBg from 'reactjs-videobg';
 import styles from './video.module.css';
 
 export default function BgVideo() {
