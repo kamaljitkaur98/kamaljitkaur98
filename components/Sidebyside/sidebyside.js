@@ -25,7 +25,7 @@ export default function side() {
                         <div className={` ${styles.rightTop}`}>
                             {
                                 Object.keys(experiences).map((item, key) => (
-                                    <><p className={`${styles.textRight}`}> <b>{experiences[item].designation}</b> , <i>{experiences[item].tenture}</i> <br></br>
+                                    <><p className={`${styles.textRight}`}> <span className={`${styles.outline}`}><b>{experiences[item].designation}</b> </span>, <i>{experiences[item].tenture}</i> <br></br>
                                     {experiences[item].company} </p></>
                                 ))
                             }

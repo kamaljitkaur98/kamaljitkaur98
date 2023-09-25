@@ -26,9 +26,6 @@ export default function Navbar(){
                             <Link href="/#background" className={` ${styles.navlink}`}> BACKGROUND </Link> 
                         </li>
                         <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
-                            <Link href="/#skills" className={` ${styles.navlink}` }> SKILLS </Link>  
-                        </li>
-                        <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
                             <Link href="/#volunteer" className={` ${styles.navlink}`}> PROJECTS </Link>  
                         </li>
                         <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
