@@ -19,22 +19,22 @@ export default function Navbar(){
                     </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav nav-fill w-100">
-                        <li class="nav-item mr-5" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                             <Link href="/#main" className={` ${styles.navlink}`}> HOME </Link>
                         </li>
-                        <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <li class="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
                             <Link href="/#background" className={` ${styles.navlink}`}> BACKGROUND </Link> 
                         </li>
-                        <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <li class="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
                             <Link href="/#volunteer" className={` ${styles.navlink}`}> PROJECTS </Link>  
                         </li>
-                        <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <li class="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
                             <Link href="/#positions" className={` ${styles.navlink}`}> VOLUNTEER </Link>  
                         </li>
-                        <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <li class="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
                             <Link href="/#connect" onClick={toggle} className={` ${styles.navlink}`}> CONNECT </Link>
                         </li>
-                        <li class="nav-item mr-5"  data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <li class="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
                             <a className={` ${styles.navlink}`} href="./Resume_Kamaljit_Aulakh.pdf" download>RESUME</a> 
                         </li>
                     </ul>
