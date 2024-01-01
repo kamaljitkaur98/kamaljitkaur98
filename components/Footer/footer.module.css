@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Satisfy&display=swap');
+
 .wrapper {
   bottom: 0;
   background-color: black;
@@ -5,8 +8,10 @@
   padding-bottom: 20px;
 }
 
-.image {
-  border-radius: 50%;
+.lineStyling {
+  width: 100%;
+  height: 2px;
+  border-color: aqua;
 }
 
 .IconStyle {
@@ -16,11 +21,12 @@
 
 .heading {
   color: aqua !important;
-  font-family: 'didot';
+  font-family: 'Satisfy', cursive;
 }
 
 .anchor, .anchor:hover {
   color: aqua;
+  margin-left: 5%;
 }
 
 @media screen and (max-width: 426px){

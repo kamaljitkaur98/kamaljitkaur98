@@ -1,6 +1,7 @@
 import styles from './volunteer.module.css';
-import Image from "next/legacy/image"
 import { motion } from 'framer-motion';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLink } from '@fortawesome/free-solid-svg-icons'
 
 export default function volunteer() {
 
@@ -20,26 +21,34 @@ export default function volunteer() {
 
     const projects = {
         first: {
-            title: "Cataract Detection and Classification",
-            description: "Classification of an eye image into cataract or normal eye.Comparative study between the various feature extraction and machine learning algorithms.Further classification on the intensity of cataract namely Mild and Severe using deep learning.Conference paper published at Cataract detection using textural features and Machine learning algorithms.",
+            title: "Netra",
+            description: "Objective: Detect cataracts and classify severity (mild, normal, severe) to improve early detection accuracy.",
+            lineone: "Phase 1: Achieved 96% accuracy in cataract detection using combined SIFT-GLCM features with SVM, Random Forest, and Logistic Regression. SIFT-GLCM individually showed lower accuracies. Phase 2: Attained 97.66% validation accuracy for severity classification using deep convolutional neural network models (SqueezeNet, MobileNet, VGG16).",
+            lastone: "Outcome: Results accessible via web and Flask-based user interface. Phase 1 implementation published in ICAIAA 2021 conference paper for binary cataract classification.",
             image: "/cataract.PNG",
             url : "https://github.com/kamaljitkaur98/Cataract-Detection-and-Classification"
         },
         second : {
-            title: "IOT based solution to smart farming",
-            description : "A sensor network environment built to monitor the various physical parameters at a farm such as smoke, temperature, humidity and moisture using Raspberry Pi. Also analyzing the results to develop a predictive model to forecast weather.Camera based surveillance for monitoring trespassing the farm land. The results acessible via a Flask-based GUI.",
+            title: "AgriConnect",
+            description : "Objective: The primary objective was to design a system that significantly reduces manual efforts by automating various processes related to farming.",
+            lineone: "Implementation: Established sensor network within the farm premises, powered by Raspberry Pi, to monitor critical physical parameters including smoke, temperature, humidity, and moisture. This data is meticulously analyzed on cloud platforms to construct a predictive model for accurate weather forecasting. Additionally, camera-based surveillance is implemented to monitor and detect any trespassing incidents on the farm.",
+            lastone: "Outcome: The outcomes and insights derived from these monitoring systems are conveniently accessible through a Flask-based GUI",
             image : "/smartfarm.PNG",
             url : "https://github.com/kamaljitkaur98/IoT-based-Smart-Farming-using-Machine-learning"
         },
         third : {
-            title : "Movie review search application",
-            description: "API Used: Imdb developers API https://developer.imdb.com/ which contain a dataset of movies and TV series implemented on an easy to search and interactive react based user interface. State Management achieved using Redux",
+            title : "FilmFlix Database",
+            description: "Objective: To create web application leveraging the open source API to provide users with a seamless search experience for movies and TV series.",
+            lineone: "Using React, a user-friendly interface was crafted, enabling users to easily search, filter, and access detailed information about various titles. Redux was integrated to manage the application's state efficiently, ensuring smooth data flow and responsiveness.",
+            lastone: "Outcome: The resulting web application offers users a streamlined experience for browsing movies and TV series. With Redux handling the state management, the application maintains performance and states.",
             image : "/movie.PNG",
             url :"https://github.com/kamaljitkaur98/movie-search-web-application"
         },
         fourth: {
-            title: "RAIT ADMISSION CHATBOT",
-            description : "Whatsapp and Telegram integrated Chabot that can be used to get admission related queries solved without visiting the college and information of events and notices post-admission. Currently in process of filling Copyright for the same.",
+            title: "RAIT AdmitBot",
+            description : "Objective : An integrated Chatbot on platforms such as WhatsApp and Telegram. This Chatbot serves as a comprehensive tool to address admission-related inquiries without necessitating a physical visit to the college.",
+            lineone: "System developed using Google Dialogflow with knowledge base collected with the help of Faculty members at undergraduate Institute.",
+            lastone: "Outcome: This idea was further copyrighted by faculty at the Department of Information Technology so as to scale for the university in the coming years.",
             image: "/chatbot.PNG",
             url : "http://t.me/rait_admission_bot"
         }
@@ -58,16 +67,27 @@ export default function volunteer() {
                 <div className={`row mt-3`}>
                 {
                     Object.keys(projects).map((item,key) => (  
-                    
                         <div className={`col-12 col-sm-6`}>
-                            <div className="text-center mt-2">
-                                <a href={projects[item].url}>
-                                    <Image src={projects[item].image} alt={projects[item].title} width="300" height="200"/>
-                                </a>
-                                <p className={`${styles.para}`}>{projects[item].title}</p>
+                            <div className='container'>
+                                <div className='row'>
+                                    <img src={projects[item].image} alt={projects[item].title} className={`${styles.image} ${styles.image2}`} width="500" height="250"/>
+                                </div>
+                                <div className='row'>
+                                    <div className='col-10'>
+                                        <p className={`${styles.para}`}>{projects[item].title}</p>
+                                    </div>
+                                    <div className='col-2'>
+                                        <a href={` ${projects[item].url}`} target="_blank"><FontAwesomeIcon className={` ${styles.icon} `} icon={faLink} /></a>
+                                    </div>    
+                                </div>
+                                <div className='mt-3 row'>
+                                    <p className={`${styles.description}`}>{projects[item].description}</p>
+                                    <p className={`${styles.description}`}>{projects[item].lineone}</p>
+                                    <p className={`${styles.description}`}>{projects[item].lastone}</p>
+                                </div>
                             </div>
-                            <p className={`mt-2 ${styles.description}`}>{projects[item].description}</p>
-                        </div> 
+                        </div>
+                       
                     
                     ))
                 }

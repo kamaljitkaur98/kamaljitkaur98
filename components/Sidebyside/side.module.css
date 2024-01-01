@@ -42,17 +42,6 @@
     margin-bottom: 5vh;
 }
 
-.outline {
-    display:inline-block;
-    text-decoration: underline;
-    color: aqua;
-}
-
-.outline:hover{
-    cursor: pointer;
-    caret-color: aqua
-}
-
 .stick {
     padding: 0;
 }
