@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <VideoBg></VideoBg>
+      <VideoBg video={"smoke.mp4"}></VideoBg>
       <div className="cursor">
         <div className='dot'></div>
       </div>
