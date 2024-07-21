@@ -1,3 +1,4 @@
+/* Importing fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Satisfy&display=swap');
 
@@ -12,26 +13,32 @@
   width: 100%;
   height: 2px;
   border-color: aqua;
+  border-style: solid; /* Ensure border is visible */
 }
 
 .IconStyle {
   font-size: 35px;
-  margin-right: 50px;
 }
 
 .heading2 {
   color: aqua !important;
   font-size: 20px;
-  font-family: "didot";
+  font-family: "Didot", serif; /* Ensure correct font-family */
 }
 
-.anchor, .anchor:hover {
+.anchor {
   color: aqua;
-  margin-left: 3%;
+  margin: 0 15px; /* Equal horizontal spacing */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.anchor:hover {
+  color: lightcyan; /* Change color on hover */
 }
 
 @media screen and (max-width: 426px){
   .anchor {
-    margin-left: 0px;
+    margin: 0 10px; /* Adjust spacing for smaller screens */
   }
 }
