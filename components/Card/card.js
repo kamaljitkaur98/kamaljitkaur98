@@ -75,10 +75,8 @@ export default function Card(props) {
                     <div className="cardboard mb-5 content dark">
                         <div className="card-body">
                             <h1>More ABOUT ME</h1>
-                            <p>I am an experienced Software Engineer currently pursuing a Master's degree in Computer Science at Syracuse University. 
-                                My professional passion lies in the realm of web development, where I specialize in utilizing Java and JavaScript frameworks to create exceptional projects. 
-                                I possess a strong dedication to enhancing user experiences through meticulous research and implementation of best-in-class UI/UX practices. 
-                                Additionally, I have a keen interest in competitive programming, utilizing both Python and Java, which serves as a valuable tool for honing my problem-solving abilities.<br></br>
+                            <p>I'm a seasoned Software Engineer currently diving into a Master's in Computer Science at Syracuse University. I'm really into backend systems development, especially when it comes to using Java and JavaScript frameworks. I get a kick out of experimenting and learning best practices in UI design.
+                               Lately, I've been drawn to the intricate world of data and am eager to tackle its challenges. On the side, I practice competitive programming with Python and Java—it's a fun way to sharpen my problem-solving skills.<br></br>
                             </p>
                         </div>
                     </div>

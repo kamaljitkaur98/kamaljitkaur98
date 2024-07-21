@@ -3,6 +3,11 @@
     overflow: hidden;
 }
 
+.parent{
+    height: 100vh;
+    padding-right: 80px;
+}
+
 .leftSide {
     font-size:80px;
     writing-mode: vertical-lr;
@@ -27,6 +32,7 @@
     font-family: "didot";
     float: left;
     color: #0ff;
+    height: inherit;
 }
 
 .textLeft {
@@ -39,11 +45,12 @@
 .textRight {
     margin: 0;
     color: bisque;
-    margin-bottom: 5vh;
+    margin-bottom: 4vh;
 }
 
 .stick {
-    padding: 0;
+    height: inherit;
+    padding: 0px 10px 0px 0px;
 }
 
 .leftTop {

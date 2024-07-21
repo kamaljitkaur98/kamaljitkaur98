@@ -19,14 +19,15 @@
   margin-right: 50px;
 }
 
-.heading {
+.heading2 {
   color: aqua !important;
-  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+  font-family: "didot";
 }
 
 .anchor, .anchor:hover {
   color: aqua;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 
 @media screen and (max-width: 426px){

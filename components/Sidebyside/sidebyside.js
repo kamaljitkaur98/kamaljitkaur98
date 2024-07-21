@@ -6,14 +6,14 @@ export default function side() {
     return (
         <div id="background" className='content light'>
             <div className={`container-fluid ${styles.canvas}`}>
-                <div className={`row`}>
+                <div className={`row ${styles.parent}`}>
                     <div className={`col-12 col-sm ${styles.stick}`}>
                         <p className={` ${styles.leftSide}`}>Education</p>
                         <div className={` ${styles.leftTop}`}>
                             {
                                 Object.keys(education).map((item, key) => (
-                                    <><p className={` mb-3 ${styles.textLeft}`}> { education[item].institute },<i>  { education[item].period } </i><br></br>
-                                    {education[item].degree} <br></br>{ education[item].grade } <br></br>
+                                    <><p className={` mb-3 ${styles.textLeft}`}> { education[item].institute }: {education[item].degree}<br></br>
+                                    {education[item].period} | { education[item].grade } <br></br>
                                     </p></>
                                 ))
                             }
@@ -26,7 +26,9 @@ export default function side() {
                             {
                                 Object.keys(experiences).map((item, key) => (
                                     <><p className={`${styles.textRight}`}> <span className={`${styles.outline}`}><b>{experiences[item].designation}</b> </span>, <i>{experiences[item].tenture}</i> <br></br>
-                                    {experiences[item].company} </p></>
+                                    {experiences[item].company} <br></br> Technical Stack: {experiences[item].techstack}
+                                    
+                                    </p></>
                                 ))
                             }
                         </div>

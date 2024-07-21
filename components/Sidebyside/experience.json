@@ -1,27 +1,32 @@
-{
+{   
     "1" : {
-        "designation": "Software Engineer",
-        "company": "IDFC First Bank Ltd",
-        "tenture": "June 2022 - August 2023"
+        "designation": "Global Integrations Team Summer Intern",
+        "company" : "Capri Holdings (Versace, Jimmy Choo, Michael Kors)",
+        "tenture": "June 2024 - Current",
+        "techstack": "Java, Python, Power Apps, Power BI, Apache Kafka, AWS"
     },
     "2" : {
+        "designation": "Software Engineer",
+        "company": "IDFC First Bank Ltd",
+        "tenture": "June 2022 - August 2023",
+        "techstack": "Java(Micronaut), JavaScript(React), Python, Kafka, ElasticSearch, Grafana, NoSQL (Aerospike DB), Jmeter, GoCD, Kafka, Docker, Kubernetes, Helm Charts"
+    },
+    "3" : {
         "designation": "Systems Engineer",
         "company": "Tata Consultancy Services",
-        "tenture": "October 2021 - June 2023"
-    },
-    "3": {
-        "designation": "Junior Full Stack Developer",
-        "company": "Mulberry Solutions",
-        "tenture": "July 2021 - September 2021"
+        "tenture": "October 2021 - June 2022",
+        "techstack": "Java(Springboot), JavaScript(React), Splunk, Bamboo, JUnit"
     },
     "4": {
-        "designation": "Summer Internship Program",
-        "company": "Ramrao Adik Institute of Technology",
-        "tenture": "November 2020 - January 2021"
+        "designation": "Junior Full Stack Developer",
+        "company": "Mulberry Solutions",
+        "tenture": "July 2021 - September 2021",
+        "techstack": "HTML/CSS, JavaScript, CSS Flex, PHP, AJAX, JQuery, SQL, Bootstrap, Figma"
     },
-    "5": {
+    "6": {
         "designation": "Web Developer Intern",
         "company": "Nishritha Foundation",
-        "tenture": "June 2020 - August 2020"
+        "tenture": "June 2020 - August 2020",
+        "techstack": "HTML/CSS, JavaScript, Bootstrap, WordPress, PHP"
     }
 }
