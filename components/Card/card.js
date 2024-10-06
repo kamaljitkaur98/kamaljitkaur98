@@ -76,7 +76,7 @@ export default function Card(props) {
                         <div className="card-body">
                             <h1>More ABOUT ME</h1>
                             <p>I'm a seasoned Software Engineer currently diving into a Master's in Computer Science at Syracuse University. I'm really into backend systems development, especially when it comes to using Java and JavaScript frameworks. I get a kick out of experimenting and learning best practices in UI design.
-                               Lately, I've been drawn to the intricate world of data and am eager to tackle its challenges. On the side, I practice competitive programming with Python and Java—it's a fun way to sharpen my problem-solving skills.<br></br>
+                               Lately, I've been drawn to the intricate world of data and am eager to tackle its challenges. On the side, I practice competitive programming with Python and Java—it's a fun way to sharpen my problem-solving skills. Below is a detailed account of my professional and volunteer experiences<br></br>
                             </p>
                         </div>
                     </div>
