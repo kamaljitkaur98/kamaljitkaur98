@@ -9,7 +9,7 @@ System design for scalable systems
 
 ## Below is a collection of some technologies I enjoy working with
 
-<div style="display: flex; gap: 10px; align-items: center;">
+<div style="display: flex; gap: 30px; align-items: center;">
 <img src="https://cdn.simpleicons.org/javascript/yellow" alt="JavaScript" width="30" height="30" />
 
 <img src="https://cdn.simpleicons.org/python" alt="python" width="50" height="50" />
