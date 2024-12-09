@@ -45,7 +45,7 @@ System design for scalable systems
 </div>
 
 
-<div id="badges" align="center" style="margin-top:50px">
+<div id="badges" align="center" style="margin-top:70px">
   <a href="https://www.linkedin.com/in/kamalkaur99/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
