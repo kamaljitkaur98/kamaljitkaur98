@@ -21,6 +21,14 @@ export default function volunteer() {
 
     const projects = {
         first: {
+            title: "BookStore POS System",
+            description: "Objective: Design a simple yet complete system that can help setup small business owners end-to-end checkout process while learning basics of Kotlin and Android Programming",
+            lineone: "Developed backend APIs to manage retrival and updation of book records. These APIs are called in mobile based user interface that supports text based and QR code based searching",
+            lastone: "Outcome: Developed mobile application running smoothly on android devices, supporting upto 50 checkout transaction per ms.",
+            image: "/BookStorePOS.png",
+            url : "https://github.com/kamaljitkaur98/book-store-pos-android-app"
+        },
+        second: {
             title: "Netra",
             description: "Objective: Detect cataracts and classify severity (mild, normal, severe) to improve early detection accuracy.",
             lineone: "Phase 1: Achieved 96% accuracy in cataract detection using combined SIFT-GLCM features with SVM, Random Forest, and Logistic Regression. SIFT-GLCM individually showed lower accuracies. Phase 2: Attained 97.66% validation accuracy for severity classification using deep convolutional neural network models (SqueezeNet, MobileNet, VGG16).",
@@ -28,7 +36,7 @@ export default function volunteer() {
             image: "/cataract.PNG",
             url : "https://github.com/kamaljitkaur98/Cataract-Detection-and-Classification"
         },
-        second : {
+        third : {
             title: "AgriConnect",
             description : "Objective: The primary objective was to design a system that significantly reduces manual efforts by automating various processes related to farming.",
             lineone: "Implementation: Established sensor network within the farm premises, powered by Raspberry Pi, to monitor critical physical parameters including smoke, temperature, humidity, and moisture. This data is meticulously analyzed on cloud platforms to construct a predictive model for accurate weather forecasting. Additionally, camera-based surveillance is implemented to monitor and detect any trespassing incidents on the farm.",
@@ -36,7 +44,7 @@ export default function volunteer() {
             image : "/smartfarm.PNG",
             url : "https://github.com/kamaljitkaur98/IoT-based-Smart-Farming-using-Machine-learning"
         },
-        third : {
+        fourth : {
             title : "FilmFlix Database",
             description: "Objective: To create web application leveraging the open source API to provide users with a seamless search experience for movies and TV series.",
             lineone: "Using React, a user-friendly interface was crafted, enabling users to easily search, filter, and access detailed information about various titles. Redux was integrated to manage the application's state efficiently, ensuring smooth data flow and responsiveness.",
@@ -44,7 +52,7 @@ export default function volunteer() {
             image : "/movie.PNG",
             url :"https://github.com/kamaljitkaur98/movie-search-web-application"
         },
-        fourth: {
+        fifth: {
             title: "RAIT AdmitBot",
             description : "Objective : An integrated Chatbot on platforms such as WhatsApp and Telegram. This Chatbot serves as a comprehensive tool to address admission-related inquiries without necessitating a physical visit to the college.",
             lineone: "System developed using Google Dialogflow with knowledge base collected with the help of Faculty members at undergraduate Institute.",
@@ -67,7 +75,7 @@ export default function volunteer() {
                 <div className={`row mt-3`}>
                 {
                     Object.keys(projects).map((item,key) => (  
-                        <div className={`col-12 col-sm-6`}>
+                        <div className={`col-12 col-sm-6`} key={key}>
                             <div className='container'>
                                 <div className='row'>
                                     <img src={projects[item].image} alt={projects[item].title} className={`${styles.image} ${styles.image2}`} width="500" height="250"/>
@@ -77,7 +85,7 @@ export default function volunteer() {
                                         <p className={`${styles.para}`}>{projects[item].title}</p>
                                     </div>
                                     <div className='col-2'>
-                                        <a href={` ${projects[item].url}`} target="_blank"><FontAwesomeIcon className={` ${styles.icon} `} icon={faLink} /></a>
+                                        <a href={`${projects[item].url}`} target="_blank"><FontAwesomeIcon className={` ${styles.icon} `} icon={faLink} /></a>
                                     </div>    
                                 </div>
                                 <div className='mt-3 row'>
