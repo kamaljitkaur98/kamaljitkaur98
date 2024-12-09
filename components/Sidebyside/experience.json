@@ -1,4 +1,11 @@
 {   
+    
+    "0" : {
+        "designation": "Web and Data Applications Developer",
+        "company" : "Open Source Program Office - New York, USA",
+        "tenture": "October 2024 - Current",
+        "techstack": "WordPress, React.js, JavaScript"
+    },
     "1" : {
         "designation": "Global Integrations Team Summer Intern",
         "company" : "Capri Holdings (Versace, Jimmy Choo, Michael Kors)",
