@@ -12,37 +12,35 @@ System design for scalable systems
 <div style="display: flex; gap: 10px; align-items: center;">
 <img src="https://cdn.simpleicons.org/javascript/yellow" alt="JavaScript" width="30" height="30" />
 
-<img src="https://cdn.simpleicons.org/python" alt="python" width="30" height="30" />
+<img src="https://cdn.simpleicons.org/python" alt="python" width="40" height="40" />
 
-<img src="https://cdn.simpleicons.org/kotlin/7F52FF" alt="kotlin" width="30" height="30">
+<img src="https://cdn.simpleicons.org/kotlin/7F52FF" alt="kotlin" width="40" height="40">
 
-<img src="https://cdn.simpleicons.org/nodedotjs" alt="nodedotjs" width="30" height="30">
+<img src="https://cdn.simpleicons.org/nodedotjs" alt="nodedotjs" width="40" height="40">
 
-<img src="https://cdn.simpleicons.org/MongoDB" alt="mongodb" width="30" height="30">
+<img src="https://cdn.simpleicons.org/MongoDB" alt="mongodb" width="40" height="40">
 
-<img src="https://cdn.simpleicons.org/MySQL" alt="mysql" width="30" height="30">
+<img src="https://cdn.simpleicons.org/MySQL" alt="mysql" width="40" height="40">
 
-<img src="https://cdn.simpleicons.org/docker" alt="docker" width="30" height="30">
+<img src="https://cdn.simpleicons.org/docker" alt="docker" width="40" height="40">
 
-<img src="https://cdn.simpleicons.org/springboot" alt="springboot" width="30" height="30">
+<img src="https://cdn.simpleicons.org/springboot" alt="springboot" width="40" height="40">
 
-<img src="https://cdn.simpleicons.org/kubernetes/326CE5" alt="kubernetes" width="30" height="30">
+<img src="https://cdn.simpleicons.org/kubernetes/326CE5" alt="kubernetes" width="40" height="40">
 
-<img src="https://cdn.simpleicons.org/amazons3/569A31" alt="amazons3" width="30" height="30">
+<img src="https://cdn.simpleicons.org/amazons3/569A31" alt="amazons3" width="40" height="40">
 
-</br>
+<img src="https://cdn.simpleicons.org/nextdotjs/00000" alt="nextdotjs" width="40" height="40">
 
-<img src="https://cdn.simpleicons.org/nextdotjs/00000" alt="nextdotjs" width="30" height="30">
+<img src="https://cdn.simpleicons.org/gocd/00000" alt="gocd" width="40" height="40">
 
-<img src="https://cdn.simpleicons.org/gocd/00000" alt="gocd" width="30" height="30">
+<img src="https://cdn.simpleicons.org/aerospike/00000" alt="aerospike" width="40" height="40">
 
-<img src="https://cdn.simpleicons.org/aerospike/00000" alt="aerospike" width="30" height="30">
+<img src="https://cdn.simpleicons.org/gocd/C22127" alt="gocd" width="40" height="40">
 
-<img src="https://cdn.simpleicons.org/gocd/C22127" alt="gocd" width="30" height="30">
+<img src="https://cdn.simpleicons.org/linux/FCC624" alt="linux" width="40" height="40">
 
-<img src="https://cdn.simpleicons.org/linux/FCC624" alt="linux" width="30" height="30">
-
-<img src="https://cdn.simpleicons.org/helm/0F1689" alt="helm" width="30" height="30">
+<img src="https://cdn.simpleicons.org/helm/0F1689" alt="helm" width="40" height="40">
 
 </div>
 
