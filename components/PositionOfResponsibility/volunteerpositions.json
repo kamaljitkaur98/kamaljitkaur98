@@ -1,13 +1,25 @@
-{   "Recent":{
-        "Position": "Website Developer",
-        "Date": "17 January 2024 - Current",
-        "Organization": "Innovate Orange, College of Engineering and Computer Science, Syracuse University",
+{   
+    
+
+    "First":{
+        "Position": "Student Assistant",
+        "Date": "12 August 2024 - Current",
+        "Organization": "Dean's Office, Career & Success Office, College of Engineering and Computer Science, Syracuse University",
         "Description": [
-            "◦ Working as a part-time developer to manage and improve 2 websites and multiple infographics leveraging HTML, CSS, Bootstrap, and JavaScript to create visually compelling, responsive user interfaces",
-            "◦ Helping and co-ordinating the organisation activities in preparation for the annual hackathon CuseHacks and other workshops"
+            "◦ Working at the front desk to help students with various queries related to academics and scheduling appointments with staff members",
+            "◦ Helping ECS staff with organizing events, scheduling rooms and handling mails"
         ]
     },
-    "First":{
+    "Second":{
+            "Position": "Website Developer",
+            "Date": "17 January 2024 - Current",
+            "Organization": "Innovate Orange, College of Engineering and Computer Science, Syracuse University",
+            "Description": [
+                "◦ Working as a part-time developer to manage and improve 2 websites and multiple infographics leveraging HTML, CSS, Bootstrap, and JavaScript to create visually compelling, responsive user interfaces",
+                "◦ Helping and co-ordinating the organisation activities in preparation for the annual hackathon CuseHacks and other workshops"
+            ]
+        },
+    "Third":{
         "Position": "Facilitator - Technical Talk",
         "Date": "5 November 2022",
         "Organization": "Ramrao Adik Institute Of Technology, Department of Information Technology",
@@ -18,7 +30,7 @@
             "◦ Provided a brief yet informative overview of the importance of adhering to security protocols when developing systems ready for production."
         ]
     },
-    "Second": {
+    "Fourth": {
         "Position": "Instructor",
         "Date": "21 June 2020 - 23 June 2020",
         "Organization": "Software Development Group RAIT summer internship program",
@@ -29,7 +41,7 @@
             "◦ To maintain simplicity throughout the session, the backend was developed using MySQL and PHP."
         ]
     },
-    "Third": {
+    "Fifth": {
         "Position": "Vice President",
         "Date": "June 2020 - August 2021",
         "Organization": "Computer Society of India - RAIT student Chapter",
@@ -40,7 +52,7 @@
             "◦ Played a pivotal role in budget allocation for committee activities and the annual university technical festival."
         ]
     },
-    "Fourth": {
+    "Sixth": {
         "Position": "Publicity Head",
         "Date": "July 2019 - June 2020",
         "Organization": "Computer Society of India - RAIT student Chapter",
@@ -52,7 +64,7 @@
             "◦ Maintained meticulous records of the funds collected as entry fees for workshops and events."
         ]
     },
-    "Fifth" : {
+    "Seventh" : {
         "Position": "Membership Co-head",
         "Date": "July 2018 - July 2019",
         "Organization": "Computer Society of India - RAIT student Chapter",
