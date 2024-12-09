@@ -35,7 +35,7 @@ export default function Navbar(){
                             <Link href="/#connect" onClick={toggle} className={` ${styles.navlink}`}> CONNECT </Link>
                         </li>
                         <li class="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
-                            <a className={` ${styles.navlink}`} href="./Resume_Kamaljit_Aulakh.pdf" download>RESUME</a> 
+                            <a className={` ${styles.navlink}`} href="./Kamaljit_Aulakh_Resume.pdf" download>RESUME</a> 
                         </li>
                     </ul>
                 </div>
