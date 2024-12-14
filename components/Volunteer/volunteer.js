@@ -25,7 +25,7 @@ export default function volunteer() {
             description: "Objective: Design a simple yet complete system that can help setup small business owners end-to-end checkout process while learning basics of Kotlin and Android Programming",
             lineone: "Developed backend APIs to manage retrival and updation of book records. These APIs are called in mobile based user interface that supports text based and QR code based searching",
             lastone: "Outcome: Developed mobile application running smoothly on android devices, supporting upto 50 checkout transaction per ms.",
-            image: "/BookStorePOS.png",
+            image: "/BookstorePOS.png",
             url : "https://github.com/kamaljitkaur98/book-store-pos-android-app"
         },
         second: {
