@@ -2,7 +2,7 @@ import VideoBg from '../components/backgroundVideo/bgvideo';
 import Card from '../components/Card/card';
 import GlitchText from '../components/glitchEffect/glitch';
 import Side from '../components/Sidebyside/sidebyside';
-import Volunteer from '../components/Volunteer/volunteer';
+import Project from '../components/Projects/project';
 import Position from '../components/PositionOfResponsibility/position';
 import Footer from '../components/Footer/footer';
 import Navbar from '../components/Navbar/navbar';
@@ -36,7 +36,7 @@ export default function Home() {
       <Card marginLeft="5%" />
       <Side />
       {/* <Skills /> */}
-      <Volunteer />
+      <Project />
       <Position />
       <Footer />
     </div>

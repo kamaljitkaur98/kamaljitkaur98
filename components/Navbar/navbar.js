@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './navbar.module.css';
 import Link from 'next/link';
+import { Icon } from '@iconify/react';
 
 
 export default function Navbar(){
@@ -15,7 +16,8 @@ export default function Navbar(){
         <React.Fragment>
             <nav id="sticky" className={`${styles.navbar} navbar navbar-expand-lg fixed-top`}>
                     <button className={`navbar-toggler navbar-toggle`} type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className={`navbar-toggler-icon ${styles.icon}`}></span>
+                        <Icon icon="icon-park-outline:hamburger-button" className={`navbar-toggler-icon ${styles.icon}`}></Icon>
+                        {/* <span className={`navbar-toggler-icon ${styles.icon}`}></span> */}
                     </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav nav-fill w-100">
@@ -26,7 +28,7 @@ export default function Navbar(){
                             <Link href="/#background" className={` ${styles.navlink}`}> BACKGROUND </Link> 
                         </li>
                         <li class="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
-                            <Link href="/#volunteer" className={` ${styles.navlink}`}> PROJECTS </Link>  
+                            <Link href="/#projects" className={` ${styles.navlink}`}> PROJECTS </Link>  
                         </li>
                         <li class="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
                             <Link href="/#positions" className={` ${styles.navlink}`}> VOLUNTEER </Link>  

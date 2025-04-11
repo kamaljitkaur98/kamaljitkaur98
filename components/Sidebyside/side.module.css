@@ -19,7 +19,7 @@
     margin-top: 25vh;
     margin-bottom: 5vh;
     font-family: "didot";
-    color: #0ff;
+    color: var(--main-theme-color);
 }
 
 .rightSide {
@@ -31,7 +31,7 @@
     margin-bottom: 5vh;
     font-family: "didot";
     float: left;
-    color: #0ff;
+    color: var(--main-theme-color);
     height: inherit;
 }
 

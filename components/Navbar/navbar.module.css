@@ -10,18 +10,18 @@
 }
 
 .navlink {
-    font-family: 'Roboto', sans-serif;
-    color: aqua;
+    font-family: "didot";
+    color: var(--main-theme-color);
 }
 
 .navlink:hover {
     text-decoration: none;
-    color: aquamarine;
+    color: var(--main-theme-color);
     cursor: pointer;
 }
 
 .icon {
-    background-image: url("/icon.png")
+    color: var(--main-theme-color);
 }
 
 

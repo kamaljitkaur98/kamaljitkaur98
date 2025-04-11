@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .headings {
-  color: aqua;
+  color: var(--main-theme-color);
   font-family: 'Satisfy', cursive;
 }
 
@@ -72,7 +71,7 @@
   }
   
   .glitch::before {
-    color: aqua;
+    color: var(--main-theme-color);
     z-index: -1;
     animation: move 1s cubic-bezier(.25, .46, .45, .94) reverse infinite;
   }

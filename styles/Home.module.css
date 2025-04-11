@@ -38,7 +38,7 @@
 }
 
 .canvas {
- background-color: #0ff;
+ background-color: var(--main-theme-color);
 }
 
 .imageOrientation {

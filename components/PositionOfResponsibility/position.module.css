@@ -2,36 +2,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 .heading {
-    color: aqua;
+    color: var(--main-theme-color);
     font-family: 'didot';
 }
 
 .text, .description, .date, .organization {
     color: whitesmoke;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.text {
+    font-size: 18px;
 }
 
 .position {
-    color: whitesmoke;
+    color: var(--main-theme-color);
     transform-origin: 0 0;
     position: relative;
     top: 40%;
-    font-family: 'Satisfy', cursive;
-    font-size: 25px;
+    font-family: 'didot';
+    font-size: 25px !important;
     padding-right: .5em;
-    text-decoration: underline aqua;
-    text-decoration-thickness: 2px;
+    /* text-decoration: underline var(--main-theme-color);
+    text-decoration-thickness: 2px; */
 }
 
 .date {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .description {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .organization {
+    font-size: 18px;
     text-transform: capitalize;
 }
 

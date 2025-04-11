@@ -2,6 +2,7 @@ import styles from './position.module.css';
 import React from 'react';
 import Image from "next/legacy/image";
 import { motion } from 'framer-motion';
+import { Icon } from '@iconify/react';
 
 export default function positions(){
 
@@ -50,23 +51,27 @@ export default function positions(){
                     variants={animationSetting}>
                 {
                     Object.keys(information).map((item,key) =>(
-                        <div className={`row pt-4`}>
+                        <div className={`row pt-4`} key={key}>
                             <div className={'col-4 text-center'}>
-                                <h5 className={` ${styles.position} `}>{information[item].Position}</h5>
+                                <h5 className={` ${styles.position} `}>
+                                    {information[item].Position}
+                                </h5>
                             </div>
                     <div className={`col-8`}>
                         <p> <span className={`${styles.organization}`}>{information[item].Organization}</span>
                             <br></br>
-                            <span className={`${styles.date}`}><i>{information[item].Date}</i></span>
+                            <span className={`${styles.date}`}>{information[item].Date}</span>
                             <br></br>
-                            {
-                                Array.from(information[item].Description).map((child, index) => {
-                                    return <><span key={index} className={`${styles.description}`}>{child}</span><br></br></>
-                                })
-                            }                        
+                            <span className='ml-2 mt-2'>
+                                {
+                                    Array.from(information[item].Description).map((child, index) => {
+                                        return <><span key={index} className={`${styles.description}`}>{child}</span><br></br></>
+                                    })
+                                } 
+                            </span>                 
                         </p>
                     </div>
-                </div>
+                        </div>
                     ))
                 }
             </motion.header>

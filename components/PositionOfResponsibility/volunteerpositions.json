@@ -11,9 +11,9 @@
         ]
     },
     "Second":{
-            "Position": "Website Developer",
+            "Position": "Web Dev Chair",
             "Date": "17 January 2024 - Current",
-            "Organization": "Innovate Orange, College of Engineering and Computer Science, Syracuse University",
+            "Organization": "Innovate Orange - Cusehacks, College of Engineering and Computer Science, Syracuse University",
             "Description": [
                 "◦ Working as a part-time developer to manage and improve 2 websites and multiple infographics leveraging HTML, CSS, Bootstrap, and JavaScript to create visually compelling, responsive user interfaces",
                 "◦ Helping and co-ordinating the organisation activities in preparation for the annual hackathon CuseHacks and other workshops"
@@ -22,7 +22,7 @@
     "Third":{
         "Position": "Facilitator - Technical Talk",
         "Date": "5 November 2022",
-        "Organization": "Ramrao Adik Institute Of Technology, Department of Information Technology",
+        "Organization": "Department of Information Technology, RAIT",
         "Description": [
             "◦ Conducted a session to delve into contemporary web development practices within the industry, with a particular emphasis on microservices and microsite architecture.",
             "◦ Delivered a concise overview of diverse deployment mechanisms within a containerized environment, leveraging cloud infrastructure such as AWS, as well as public or private infrastructure through Kubernetes.",
@@ -33,7 +33,7 @@
     "Fourth": {
         "Position": "Instructor",
         "Date": "21 June 2020 - 23 June 2020",
-        "Organization": "Software Development Group RAIT summer internship program",
+        "Organization": "Software Development Group, RAIT",
         "Description": [
             "◦ Walkthrough on the fundamentals of recommended UX practices and UI design using Figma.",
             "◦ Three-day session on the basics of responsive web design using Bootstrap.",
@@ -69,10 +69,10 @@
         "Date": "July 2018 - July 2019",
         "Organization": "Computer Society of India - RAIT student Chapter",
         "Description": [
-            "Devised and implemented strategies to draw in new committee members through orientation sessions and on-campus meetups.",
-            "Maintained a comprehensive database containing essential information on both active and alumni committee members, including membership expiration dates.",
-            "Acted as the primary point of contact for all membership-related inquiries and information.",
-            "Addressed member issues and actively solicited and incorporated member suggestions and feedback."
+            "◦ Devised and implemented strategies to draw in new committee members through orientation sessions and on-campus meetups.",
+            "◦ Maintained a comprehensive database containing essential information on both active and alumni committee members, including membership expiration dates.",
+            "◦ Acted as the primary point of contact for all membership-related inquiries and information.",
+            "◦ Addressed member issues and actively solicited and incorporated member suggestions and feedback."
         ]
     }
 }

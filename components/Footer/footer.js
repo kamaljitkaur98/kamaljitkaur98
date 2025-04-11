@@ -1,6 +1,5 @@
 import styles from './footer.module.css';
 import React from 'react';
-import Image from 'next/legacy/image'; // Ensure you import this if you plan to use images
 
 export default function Footer() {
     return (

@@ -12,7 +12,7 @@
 .lineStyling {
   width: 100%;
   height: 2px;
-  border-color: aqua;
+  border-color: var(--main-theme-color);
   border-style: solid; /* Ensure border is visible */
 }
 
@@ -21,13 +21,13 @@
 }
 
 .heading2 {
-  color: aqua !important;
+  color: var(--main-theme-color) !important;
   font-size: 20px;
-  font-family: "Didot", serif; /* Ensure correct font-family */
+  font-family: "didot";
 }
 
 .anchor {
-  color: aqua;
+  color: var(--main-theme-color);
   margin: 0 15px; /* Equal horizontal spacing */
   text-decoration: none; /* Remove underline */
   transition: color 0.3s ease; /* Smooth transition for color change */
