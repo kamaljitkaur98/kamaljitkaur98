@@ -4,7 +4,7 @@
 }
 
 .parent{
-    height: 90vh;
+    height: fit-content;
 }
 
 .leftSide {
@@ -62,7 +62,7 @@
 }
 
 .rightTop {
-    margin-top: 15% !important;
+    overflow-y: scroll;
 }
 
 @media screen and (max-width: 426px){

@@ -87,3 +87,17 @@ video::-webkit-media-controls-start-playback-button {
   background: var(--main-theme-backgroundcolor);
   border: solid 1px var(--main-theme-color)marine;
 }
+
+/** Media Query */
+
+@media screen and (max-width: 768px) {
+  .swiper {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .swiper {
+    height: 90vh;
+  }
+}

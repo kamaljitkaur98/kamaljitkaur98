@@ -26,11 +26,12 @@
   border: 1px var(--main-theme-color) solid;
   background-color: var(--main-theme-color);
   color: var(--main-theme-backgroundcolor);
-  width: 40%;
+  width: 60%;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: lighter;
   font-size: 16px;
   line-height: 1.75rem;
+  border-radius: 10px;
 }
 
 .heightContainer {
@@ -46,7 +47,7 @@
 
 .imageBox {
   position: absolute;
-  bottom: -100px;
+  bottom: -90px;
   right: 0;
   width: 50%;
   height: 50%;
@@ -59,8 +60,8 @@
 }
 
 /* Move to center on hover */
-.imageContainer:hover .imageBox {
-  bottom: 40%;
+.imageBox:hover {
+  bottom: 35%;
   right: 5%;
 }
 
@@ -112,6 +113,10 @@
 
 .image{
 position: relative;
+}
+
+.mobileIcon {
+  display: none;
 }
 
 .image1{
@@ -175,6 +180,30 @@ position: relative;
     .para {
         text-transform: none;
     }
+}
+
+@media only screen and (max-width:768px){
+  .heightContainer {
+    height: max-content;
+  }
+  .wideIcon{
+    display: none !important;
+  }
+  .circleContainer {
+    padding: 0px !important;
+  }
+  .mobileIcon {
+    margin-top: 20px;
+    display: block;
+  }
+  .imageBox {
+    height: 0px;
+    width: 0px;
+      display: none;
+  }
+  .projectDescriptionCard {
+    width: fit-content;
+  }
 }
 
 /** Technology Circles */
