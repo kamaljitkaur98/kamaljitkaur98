@@ -12,7 +12,8 @@ export default function side() {
                         <div className={` ${styles.leftTop}`}>
                             {
                                 Object.keys(education).map((item, key) => (
-                                    <><p className={` mb-3 ${styles.textLeft}`}> { education[item].institute }: {education[item].degree}<br></br>
+                                    <><p className={` mb-3 ${styles.textLeft}`}> 
+                                    <span className={`${styles.outline}`}> <b> { education[item].institute } </b> </span> | <b> {education[item].degree} </b> <br></br>
                                     {education[item].period} | { education[item].grade } <br></br>
                                     </p></>
                                 ))
@@ -25,9 +26,10 @@ export default function side() {
                         <div className={` ${styles.rightTop}`}>
                             {
                                 Object.keys(experiences).map((item, key) => (
-                                    <><p className={`${styles.textRight}`}> <span className={`${styles.outline}`}><b>{experiences[item].designation}</b> </span>, <i>{experiences[item].tenture}</i> <br></br>
-                                    {experiences[item].company} <br></br> Technical Stack: {experiences[item].techstack}
-                                    
+                                    <><p className={`${styles.textRight}`}> 
+                                        <span className={`${styles.outline}`}><b>{experiences[item].company}</b> </span> <br></br>
+                                            {experiences[item].designation} | <i>{experiences[item].tenture}</i> <br></br>
+                                            Technical Stack: {experiences[item].techstack} <br></br>
                                     </p></>
                                 ))
                             }

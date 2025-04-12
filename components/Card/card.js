@@ -53,14 +53,16 @@ export default function Card(props) {
                     }
 
                     h1 {
-                        color: black;
+                        color: var(--main-theme-backgroundcolor);
                         padding-left:3vw;
                         font-family: "didot";
                     }
 
                     p {
-                        color: black;
+                        color: var(--main-theme-backgroundcolor);
                         padding-left: 3vw;
+                        line-height: 28px;
+                        font-size: 18px;
                         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
                     }
 

@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Satisfy&display=swap');
 
 .canvas {
-    background-color: black;
+    background-color: var(--main-theme-backgroundcolor);
 }
 
 .projectcontainer{
   padding-top: 80px;
-  background-color: black;
+  background-color: var(--main-theme-backgroundcolor);
 }
 
 .projectheading{
@@ -25,11 +25,12 @@
   padding: 2%;
   border: 1px var(--main-theme-color) solid;
   background-color: var(--main-theme-color);
-  color: black;
+  color: var(--main-theme-backgroundcolor);
   width: 40%;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: lighter;
   font-size: 16px;
+  line-height: 1.75rem;
 }
 
 .heightContainer {
@@ -46,18 +47,15 @@
 .imageBox {
   position: absolute;
   bottom: -100px;
-  border: 1px var(--main-theme-color) solid;
   right: 0;
   width: 50%;
   height: 50%;
-  background-color: black;
+  background-color: var(--main-theme-backgroundcolor);
   transition: transform 0.75s ease-in-out, bottom 0.75s ease-in-out, right 0.75s ease-in-out;
 }
 
 .movingImage {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 /* Move to center on hover */
@@ -118,7 +116,6 @@ position: relative;
 
 .image1{
   position: absolute;
-  
   width:20px;
   height: 20px;
   top:5%;
@@ -197,7 +194,7 @@ position: relative;
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background-color: black; 
+  background-color: var(--main-theme-backgroundcolor); 
   color: white;
   display: flex;
   align-items: center;
@@ -210,14 +207,10 @@ position: relative;
   z-index: 1;
 }
 
-.iconCircle:first-child {
-  margin-left: 0; 
-}
-
 /** Button styling */
 
 .codeButton{
-  background-color: black;
+  background-color: var(--main-theme-backgroundcolor);
   border: 1px solid var(--main-theme-color);
   color: var(--main-theme-color);
   width: 50%;
@@ -226,5 +219,5 @@ position: relative;
 .codeButton:hover{
   background-color: var(--main-theme-color);
   border: 1px solid var(--main-theme-color);
-  color: black;
+  color: var(--main-theme-backgroundcolor);
 }

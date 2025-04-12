@@ -11,6 +11,7 @@
 
 .navlink {
     font-family: "didot";
+    font-weight: 700;
     color: var(--main-theme-color);
 }
 

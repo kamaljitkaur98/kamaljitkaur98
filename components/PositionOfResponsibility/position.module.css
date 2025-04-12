@@ -41,7 +41,7 @@
 }
 
 .canvas {
-    background-color: black;
+    background-color: var(--main-theme-backgroundcolor);
     margin-bottom: 20px;
 }
 

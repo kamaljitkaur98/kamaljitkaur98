@@ -44,9 +44,20 @@ export default function project() {
                                         </div>
                                     </div>
                                     <div className='col-4 d-flex justify-content-center'>
-                                            <div className={ `${styles.iconCircle}`}>
-                                                <Icon icon="simple-icons:refinedgithub" style={{ color: "var(--main-theme-color)" }}/>
-                                            </div>
+                                        {projects[item].github && (
+                                        <div className={styles.iconCircle}>
+                                            <a href={projects[item].github} target="_blank" rel="noopener noreferrer">
+                                            <Icon icon="simple-icons:github" style={{ color: "var(--main-theme-color)" }} />
+                                            </a>
+                                        </div>
+                                        )}
+                                        {projects[item].url && (
+                                        <div className={styles.iconCircle}>
+                                            <a href={projects[item].url} target="_blank" rel="noopener noreferrer">
+                                            <Icon icon="mdi:web" style={{ color: "var(--main-theme-color)" }} />
+                                            </a>
+                                        </div>
+                                        )}
                                     </div>
                                 </div>
                                 <div className={ `row mt-4 ml-4 ${styles.heightContainer}`}>
@@ -57,7 +68,7 @@ export default function project() {
                                             <p>{projects[item].lastone}</p>
                                         </div>
                                         <div className={ `${styles.imageBox}`}>
-                                            <Image className={ `${styles.movingImage}`} src={projects[item].image} alt="Bookstore POS PNG" width="200" height="200"/>
+                                            <img className={ `${styles.movingImage} img-fluid`} src={projects[item].image} alt="Bookstore POS PNG" />
                                         </div>
                                     </div>
                                 </div>

@@ -1,11 +1,10 @@
 .canvas {
-    background-color: black;
+    background-color: var(--main-theme-backgroundcolor);
     overflow: hidden;
 }
 
 .parent{
-    height: 110vh;
-    padding-right: 80px;
+    height: 90vh;
 }
 
 .leftSide {
@@ -33,6 +32,11 @@
     float: left;
     color: var(--main-theme-color);
     height: inherit;
+}
+
+.outline {
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .textLeft {

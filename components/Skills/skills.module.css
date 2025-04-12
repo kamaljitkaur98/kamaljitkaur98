@@ -1,6 +1,6 @@
 .headings {
     font-family: Georgia, "Times New Roman", Times, serif;
-    color: black;
+    color: var(--main-theme-backgroundcolor);
     font-size: 30px;
 }
 

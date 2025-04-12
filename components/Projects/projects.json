@@ -2,21 +2,23 @@
 
     "1": {
         "title": "Heal - QDR Bridge",
-        "description" : "An integrated Chatbot on platforms such as WhatsApp and Telegram. This Chatbot serves as a comprehensive tool to address admission-related inquiries without necessitating a physical visit to the college.",
-        "lineone": "System developed using Google Dialogflow with knowledge base collected with the help of Faculty members at undergraduate Institute.",
-        "lastone": "Outcome: This idea was further copyrighted by faculty at the Department of Information Technology so as to scale for the university in the coming years.",
-        "technologies": ["logos:dialogflow", "material-icon-theme:python"],
-        "image": "/chatbot.PNG",
-        "url" : "http://t.me/rait_admission_bot"
+        "description" : "Web platform developed as part of work at OSPO for QDR at Syracuse University. QDR is a dedicated archive for storing and sharing qualitative and mixed-method research data. It hosts variety of collections one of them being HEAL",
+        "lineone": "Worked to develop a automated pipeline between to transfer study-level metadata from HEAL and QDR",
+        "lastone": "Involved extension JSON structure validation and transformation followed by API calls to upload data to dataverse (backend used by QDR)",
+        "technologies": ["tabler:json", "material-icon-theme:javascript", "devicon:bootstrap"],
+        "image": "/heal_qdr.PNG",
+        "github" : "https://github.com/QualitativeDataRepository/heal-qdr-bridge-UI",
+        "url": "https://qualitativedatarepository.github.io/heal-qdr-bridge-UI/"
     },
     "2": {
         "title": "SU Data Storage Finder",
-        "description" : "An integrated Chatbot on platforms such as WhatsApp and Telegram. This Chatbot serves as a comprehensive tool to address admission-related inquiries without necessitating a physical visit to the college.",
-        "lineone": "System developed using Google Dialogflow with knowledge base collected with the help of Faculty members at undergraduate Institute.",
-        "lastone": "Outcome: This idea was further copyrighted by faculty at the Department of Information Technology so as to scale for the university in the coming years.",
-        "technologies": ["logos:dialogflow", "material-icon-theme:python"],
-        "image": "/chatbot.PNG",
-        "url" : "http://t.me/rait_admission_bot"
+        "description" : "This is a tool I developed as part of development at OSPO for Syracuse University. It aims to help faculty and students find the most appropriate data storage option based on their specific needs using a simple survey method.",
+        "lineone": "This tool is built on WordPress as the content management system, featuring a custom-written plugin that renders the user interface thoroughly tested for functionality, responsive design and accessibility testing using WAVE",
+        "lastone": "",
+        "technologies": ["skill-icons:wordpress", "logos:github-octocat", "logos:visual-studio-code", "devicon:php", "vscode-icons:file-type-plsql"],
+        "image": "/ospo.png",
+        "github" : "https://github.com/SyracuseUniversity/data-storage-finder",
+        "url": "https://opensource.syracuse.edu/data-storage-finder/"
     },
     "3": {
         "title": "BookStore POS System",
