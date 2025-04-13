@@ -6,10 +6,11 @@ import 'swiper/css/effect-cards';
 import { EffectCards } from 'swiper/modules';
 import Image from "next/image";
 import { Icon } from '@iconify/react';
+import { useEffect, useState } from 'react';
 
 export default function project() {
 
-    const projects = require("./projects.json")
+   const projects = require("./projects.json")
 
     return (
         <div className={`container ${styles.projectcontainer}`} id="projects">
@@ -67,7 +68,7 @@ export default function project() {
                                             <p>{projects[item].lineone}</p>
                                             <p>{projects[item].lastone}</p>
                                         </div>
-                                        <div className={ `${styles.imageBox}`}>
+                                        <div className={ `${styles.imageBox} `}>
                                             <img className={ `${styles.movingImage} img-fluid`} src={projects[item].image} alt="Bookstore POS PNG" />
                                         </div>
                                     </div>

@@ -14,7 +14,7 @@
         "title": "Data Storage Finder",
         "description" : "This is a tool I developed as part of development at OSPO for Syracuse University. It aims to help faculty and students find the most appropriate data storage option based on their specific needs using a simple survey method.",
         "lineone": "This tool is built on WordPress as the content management system, featuring a custom-written plugin that renders the user interface thoroughly tested for functionality, responsive design and accessibility testing using WAVE",
-        "lastone": "",
+        "lastone": "Conducted faculty interviews and collaborated with departments across university to collect list of storage solutions.",
         "technologies": ["skill-icons:wordpress", "devicon:php", "vscode-icons:file-type-plsql"],
         "image": "/ospo.png",
         "github" : "https://github.com/SyracuseUniversity/data-storage-finder",
@@ -22,8 +22,9 @@
     },
     "3": {
         "title": "BookStore POS System",
-        "description": "Designed a android mobile application that can help small business owners to setup end-to-end checkout process.",
-        "lineone": "Developed backend APIs using Springboot deployed on EC2 to manage retrival and updation of book records. These APIs are called in client side that supports text based and QR code based searching",
+        "description": "Built a mobile point-of-sale app for independent bookstore owners to simplify sales and inventory management. Developed the Android app using Kotlin with features like barcode scanning, transaction history, and real-time inventory updates.",
+        "lineone": "Created the backend using Spring Boot and connected it to an SQL database. The backend is deployed on AWS EC2 to ensure reliable and scalable access. Persistent local storage for cart items using RoomDB",
+        "lastone": "Designed to eliminate the need for expensive hardware, offering a cost-effective and accessible retail solution.",
         "technologies": ["material-icon-theme:kotlin", "devicon:materialui", "logos:aws-ec2"],
         "image": "/6.png",
         "github" : "https://github.com/kamaljitkaur98/book-store-pos-android-app"

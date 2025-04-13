@@ -48,22 +48,25 @@
 
 .imageBox {
   position: absolute;
-  bottom: -90px;
-  right: 0;
+  bottom: -80px;
+  right: 2%;
   width: 50%;
   height: 50%;
+  padding: 2%;
+  border: 1px solid var(--main-theme-color);
+  border-radius: 20px;
   background-color: var(--main-theme-backgroundcolor);
-  transition: transform 0.75s ease-in-out, bottom 0.75s ease-in-out, right 0.75s ease-in-out;
+  transition: transform 1s ease-in-out, bottom 1s ease-in-out, right 1s ease-in-out;
 }
 
 .movingImage {
-  object-fit: fill;
+  height: 100%;
+  width: 100%;
 }
 
 /* Move to center on hover */
 .imageBox:hover {
-  bottom: 35%;
-  right: 5%;
+  bottom: 25%;
 }
 
 .para {
