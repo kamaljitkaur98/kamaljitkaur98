@@ -253,6 +253,14 @@ position: relative;
   z-index: 1;
 }
 
+.iconLink:hover {
+  background-color: var(--main-theme-color);
+}
+
+.iconLink:hover svg {
+  color: var(--main-theme-backgroundcolor) !important;
+}
+
 /** Button styling */
 
 .codeButton{

@@ -46,14 +46,14 @@ export default function project() {
                                     </div>
                                     <div className={ `col-md-4 col-6 d-flex justify-content-center ${styles.wideIcon}`}>
                                         {projects[item].github && (
-                                        <div className={styles.iconCircle}>
+                                        <div className={ `${styles.iconCircle} ${styles.iconLink}`}>
                                             <a href={projects[item].github} target="_blank" rel="noopener noreferrer">
                                             <Icon icon="simple-icons:github" style={{ color: "var(--main-theme-color)" }} />
                                             </a>
                                         </div>
                                         )}
                                         {projects[item].url && (
-                                        <div className={styles.iconCircle}>
+                                        <div className={ `${styles.iconCircle} ${styles.iconLink}`}>
                                             <a href={projects[item].url} target="_blank" rel="noopener noreferrer">
                                             <Icon icon="mdi:web" style={{ color: "var(--main-theme-color)" }} />
                                             </a>
@@ -89,7 +89,7 @@ export default function project() {
                                     </div>
                                     <div className={`col-sm-4 col-12 ${styles.mobileIcon}`}>
                                         {projects[item].github && (
-                                        <div className={styles.iconCircle}>
+                                        <div className={ `${styles.iconCircle} ${styles.iconLink}`}>
                                             <a href={projects[item].github} target="_blank" rel="noopener noreferrer">
                                             <Icon icon="simple-icons:github" style={{ color: "var(--main-theme-color)" }} />
                                             </a>
