@@ -6,7 +6,7 @@
         "lineone": "Worked to develop a automated pipeline between to transfer study-level metadata from HEAL and QDR",
         "lastone": "Involved extension JSON structure validation and transformation followed by API calls to upload data to dataverse (backend used by QDR)",
         "technologies": ["tabler:json", "material-icon-theme:javascript", "devicon:bootstrap"],
-        "image": "/heal_qdr.PNG",
+        "image": "/healQDR.png",
         "github" : "https://github.com/QualitativeDataRepository/heal-qdr-bridge-UI",
         "url": "https://qualitativedatarepository.github.io/heal-qdr-bridge-UI/"
     },

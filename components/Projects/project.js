@@ -24,7 +24,7 @@ export default function project() {
                     Object.keys(projects).map((item, key) => (
                         <SwiperSlide key={key}>
                             <div className={`container-fluid ${styles.imageContainer}`}>
-                                <div className={ `row mt-3 ml-md-4 ml-2 align-items-center` }>
+                                <div className={ `row mt-3 ml-lg-4 ml-2 align-items-center` }>
                                     <div className='col-md-4 col-12'>
                                         <h3 className={`${styles.projectTitle}`}>{projects[item].title}</h3>
                                     </div>
@@ -60,7 +60,7 @@ export default function project() {
                                         )}
                                     </div>
                                 </div>
-                                <div className={ `row mt-4 ml-md-4 ml-0 ${styles.heightContainer}`}>
+                                <div className={ `row mt-4 ml-lg-4 ml-0 ${styles.heightContainer}`}>
                                     <div className='col-12'>
                                         <div className={ ` ${styles.projectDescriptionCard }`}>
                                             <p>{projects[item].description}</p>
@@ -71,7 +71,7 @@ export default function project() {
                                             <img className={ `${styles.movingImage} img-fluid`} src={projects[item].image} alt="Bookstore POS PNG" />
                                         </div>
                                     </div>
-                                    <div className={ `col-sm-8 col-12 d-flex justify-content-center ${styles.mobileIcon}`}>
+                                    <div className={ `col-sm-8 col-12 ${styles.mobileIcon}`}>
                                         <div className={ `${styles.circleContainer}`}>
                                         {
                                             Array.from(projects[item].technologies).map((icon, index) => {
@@ -86,7 +86,7 @@ export default function project() {
                                         }
                                         </div>
                                     </div>
-                                    <div className={`col-sm-4 col-12 d-flex justify-content-center ${styles.mobileIcon}`}>
+                                    <div className={`col-sm-4 col-12 ${styles.mobileIcon}`}>
                                         {projects[item].github && (
                                         <div className={styles.iconCircle}>
                                             <a href={projects[item].github} target="_blank" rel="noopener noreferrer">

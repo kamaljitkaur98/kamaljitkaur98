@@ -98,6 +98,6 @@ video::-webkit-media-controls-start-playback-button {
 
 @media screen and (max-width: 480px) {
   .swiper {
-    height: 90vh;
+    height: fit-content;
   }
 }

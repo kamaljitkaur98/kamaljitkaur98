@@ -183,9 +183,16 @@ position: relative;
     }
 }
 
+@media only screen and (max-width:1000px) {
+  .projectDescriptionCard {
+    width: 80%;
+  }
+}
+
 @media only screen and (max-width:768px){
   .heightContainer {
     height: max-content;
+    margin-bottom: 30px;
   }
   .wideIcon{
     display: none !important;
@@ -195,7 +202,7 @@ position: relative;
   }
   .mobileIcon {
     margin-top: 20px;
-    display: block;
+    display: flex;
   }
   .imageBox {
     height: 0px;
@@ -204,6 +211,12 @@ position: relative;
   }
   .projectDescriptionCard {
     width: fit-content;
+  }
+}
+
+@media only screen and (max-width:565px) {
+  .mobileIcon{
+    justify-content: center;
   }
 }
 
