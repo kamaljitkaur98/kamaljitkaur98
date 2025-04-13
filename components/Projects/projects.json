@@ -11,7 +11,7 @@
         "url": "https://qualitativedatarepository.github.io/heal-qdr-bridge-UI/"
     },
     "2": {
-        "title": "SU Data Storage Finder",
+        "title": "Data Storage Finder",
         "description" : "This is a tool I developed as part of development at OSPO for Syracuse University. It aims to help faculty and students find the most appropriate data storage option based on their specific needs using a simple survey method.",
         "lineone": "This tool is built on WordPress as the content management system, featuring a custom-written plugin that renders the user interface thoroughly tested for functionality, responsive design and accessibility testing using WAVE",
         "lastone": "",
