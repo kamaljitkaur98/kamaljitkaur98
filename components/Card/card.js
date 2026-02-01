@@ -78,9 +78,9 @@ export default function Card(props) {
                         <div className="card-body">
                             <h1>More ABOUT ME</h1>
                             <p> 
-                            Hi, I'm Kamaljit Aulakh, a Computer Science master's student at Syracuse University (graduating May 2025) with a passion for building clean, scalable software.
-                            <br></br>With 2+ years of experience as a software engineer in the <b>FinTech</b> space, I've built robust <b>microservices, containerized deployments, and frontends</b> that actually make users smile. My toolkit includes <b>Java, Python, JavaScript, React, Docker, SQL</b> and more—plus some handy experience with <b>Spring Boot, Kubernetes, and low-code platform</b> development.
-                            <br></br>Whether I'm working on a Flutter quiz app or automating data flows between platforms like HEAL and Dataverse, I focus on simple, practical solutions that get the job done right. Also, I'll take chai over coffee any day ☕ —and yes, I speak (and code) in multiple languages.
+                            Hi, I'm Kamaljit Aulakh, a Computer Science master's student at Syracuse University, May 2025 graduate, with a passion for building clean, scalable software.
+                            <br></br>With 2+ years of experience as a software engineer in the <b>FinTech</b> space, I've built robust <b>microservices, containerized deployments, and frontends</b> that actually make users smile. My toolkit includes <b>Java, Python, JavaScript, React, Docker, SQL</b> and more, plus some handy experience with <b>Spring Boot, Kubernetes, and low-code platform</b> development.
+                            <br></br>Whether I'm working on a Flutter quiz app or automating data flows between platforms like HEAL and Dataverse, I focus on simple, practical solutions that get the job done right. Also, I'll take chai over coffee any day ☕ and yes, I speak (and code) in multiple languages.
                             <br></br>My short term learning goals include diving into security for API's and backend development using blockchain. I am active looking to connect with individuals and foster an environment of growth and learning. If this sounds like your way of doing things, let's connect and build something meaningful!
                             </p>
                         </div>

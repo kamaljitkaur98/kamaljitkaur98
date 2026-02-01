@@ -1,69 +1,44 @@
-{   
-
-    "1": {
-        "title": "Heal - QDR Bridge",
-        "description" : "Web platform developed as part of work at OSPO for QDR at Syracuse University. QDR is a dedicated archive for storing and sharing qualitative and mixed-method research data. It hosts variety of collections one of them being HEAL",
-        "lineone": "Worked to develop a automated pipeline between to transfer study-level metadata from HEAL and QDR",
-        "lastone": "Involved extension JSON structure validation and transformation followed by API calls to upload data to dataverse (backend used by QDR)",
-        "technologies": ["tabler:json", "material-icon-theme:javascript", "devicon:bootstrap"],
-        "image": "/healQDR.png",
-        "github" : "https://github.com/QualitativeDataRepository/heal-qdr-bridge-UI",
-        "url": "https://qualitativedatarepository.github.io/heal-qdr-bridge-UI/"
-    },
-    "2": {
-        "title": "Data Storage Finder",
-        "description" : "This is a tool I developed as part of development at OSPO for Syracuse University. It aims to help faculty and students find the most appropriate data storage option based on their specific needs using a simple survey method.",
-        "lineone": "This tool is built on WordPress as the content management system, featuring a custom-written plugin that renders the user interface thoroughly tested for functionality, responsive design and accessibility testing using WAVE",
-        "lastone": "Conducted faculty interviews and collaborated with departments across university to collect list of storage solutions.",
-        "technologies": ["skill-icons:wordpress", "devicon:php", "vscode-icons:file-type-plsql"],
-        "image": "/ospo.png",
-        "github" : "https://github.com/SyracuseUniversity/data-storage-finder",
-        "url": "https://opensource.syracuse.edu/data-storage-finder/"
-    },
-    "3": {
-        "title": "BookStore POS System",
-        "description": "Built a mobile point-of-sale app for independent bookstore owners to simplify sales and inventory management. Developed the Android app using Kotlin with features like barcode scanning, transaction history, and real-time inventory updates.",
-        "lineone": "Created the backend using Spring Boot and connected it to an SQL database. The backend is deployed on AWS EC2 to ensure reliable and scalable access. Persistent local storage for cart items using RoomDB",
-        "lastone": "Designed to eliminate the need for expensive hardware, offering a cost-effective and accessible retail solution.",
-        "technologies": ["material-icon-theme:kotlin", "devicon:materialui", "logos:aws-ec2"],
-        "image": "/6.png",
-        "github" : "https://github.com/kamaljitkaur98/book-store-pos-android-app"
-    },
-    "4": {
-        "title": "Netra",
-        "description": "Detect cataracts and classify severity (mild, normal, severe) to improve early detection accuracy.",
-        "lineone": "Achieved 96% accuracy in cataract detection using combined SIFT-GLCM features with SVM, Random Forest, and Logistic Regression. SIFT-GLCM individually showed lower accuracies. Attained 97.66% validation accuracy for severity classification using deep convolutional neural network models (SqueezeNet, MobileNet, VGG16).",
-        "lastone": "Results accessible via web and Flask-based user interface. Phase 1 implementation published in ICAIAA 2021 conference paper for binary cataract classification.",
-        "technologies": ["material-icon-theme:python", "devicon:opencv-wordmark", "devicon:scikitlearn", "devicon:tensorflow"],
-        "image": "/1.png",
-        "github" : "https://github.com/kamaljitkaur98/Cataract-Detection-and-Classification"
-    },
-    "5" : {
-        "title": "AgriConnect",
-        "description" : "The primary objective was to design a system that significantly reduces manual efforts by automating various processes related to farming.",
-        "lineone": "Established sensor network within the farm premises, powered by Raspberry Pi, to monitor critical physical parameters including smoke, temperature, humidity, and moisture. This data is meticulously analyzed on cloud platforms to construct a predictive model for accurate weather forecasting. Additionally, camera-based surveillance is implemented to monitor and detect any trespassing incidents on the farm.",
-        "lastone": "The outcomes and insights derived from these monitoring systems are conveniently accessible through a Flask-based GUI",
-        "technologies": ["devicon:raspberrypi", "material-icon-theme:python", "devicon:scikitlearn"],
-        "image" : "/4.png",
-        "github" : "https://github.com/kamaljitkaur98/IoT-based-Smart-Farming-using-Machine-learning"
-    },
-    "6" : {
-        "title" : "FilmFlix Database",
-        "description": "To create web application leveraging the open source API to provide users with a seamless search experience for movies and TV series.",
-        "lineone": "Using React, a user-friendly interface was crafted, enabling users to easily search, filter, and access detailed information about various titles. Redux was integrated to manage the application's state efficiently, ensuring smooth data flow and responsiveness.",
-        "lastone": "The resulting web application offers users a streamlined experience for browsing movies and TV series. With Redux handling the state management, the application maintains performance and states.",
-        "technologies": ["skill-icons:react-dark", "skill-icons:redux", "devicon:reactbootstrap", "skill-icons:git"],
-        "image" : "/3.png",
-        "github" :"https://github.com/kamaljitkaur98/movie-search-web-application",
-        "url": "https://movie-search-web-application-kamaljitkaur98.vercel.app/#/"
-    },
-    "7": {
-        "title": "RAIT AdmitBot",
-        "description" : "An integrated Chatbot on platforms such as WhatsApp and Telegram. This Chatbot serves as a comprehensive tool to address admission-related inquiries without necessitating a physical visit to the college.",
-        "lineone": "System developed using Google Dialogflow with knowledge base collected with the help of Faculty members at undergraduate Institute.",
-        "lastone": "This idea was further copyrighted by faculty at the Department of Information Technology so as to scale for the university in the coming years.",
-        "technologies": ["logos:dialogflow", "material-icon-theme:python"],
-        "image": "/2.png",
-        "url" : "http://t.me/rait_admission_bot"
-    }
+{
+  "1": {
+    "title": "HEAL – QDR Metadata Bridge",
+    "tagline": "Automated research metadata ingestion pipeline",
+    "description": "Designed and built a production-grade web platform at Syracuse University OSPO to automate the transfer of study-level metadata between HEAL collections and the Qualitative Data Repository (QDR), a national archive for qualitative and mixed-method research data.",
+    "lineone": "Architected and implemented an automated metadata pipeline to ingest, validate, transform, and synchronize JSON-based study metadata between HEAL and QDR, eliminating manual ingestion workflows.",
+    "lastone": "Implemented JSON schema validation, metadata transformation logic, and REST API integrations to upload validated datasets into Dataverse (QDR backend), enabling scalable and reliable metadata publishing.",
+    "technologies": ["tabler:json", "material-icon-theme:javascript", "devicon:bootstrap"],
+    "image": "/healQDR.png",
+    "github": "https://github.com/QualitativeDataRepository/heal-qdr-bridge-UI",
+    "url": "https://qualitativedatarepository.github.io/heal-qdr-bridge-UI/"
+  },
+  "2": {
+    "title": "Data Storage Finder",
+    "tagline": "Decision-support tool for research data storage",
+    "description": "Developed a decision-support web application at Syracuse University OSPO to help faculty and students identify the most appropriate data storage solutions based on research needs, compliance requirements, and data sensitivity.",
+    "lineone": "Designed and implemented a custom WordPress plugin that dynamically renders a guided survey workflow and maps user responses to recommended storage solutions.",
+    "lastone": "Conducted faculty interviews and cross-department collaboration to curate storage options, and ensured accessibility compliance through responsive design and WAVE accessibility testing.",
+    "technologies": ["skill-icons:wordpress", "devicon:php", "vscode-icons:file-type-plsql"],
+    "image": "/ospo.png",
+    "github": "https://github.com/SyracuseUniversity/data-storage-finder",
+    "url": "https://opensource.syracuse.edu/data-storage-finder/"
+  },
+  "3": {
+    "title": "BookStore POS System",
+    "tagline": "Mobile-first POS system for independent retailers",
+    "description": "Designed and developed a full-stack mobile point-of-sale system for independent bookstore owners to manage sales, inventory, and transactions without requiring specialized hardware.",
+    "lineone": "Built an Android application using Kotlin with barcode scanning, transaction history, and real-time inventory updates, along with persistent local storage using RoomDB for offline resilience.",
+    "lastone": "Developed a Spring Boot backend with SQL persistence and deployed the service on AWS EC2, enabling reliable remote access and scalable inventory management.",
+    "technologies": ["material-icon-theme:kotlin", "devicon:materialui", "logos:aws-ec2"],
+    "image": "/6.png",
+    "github": "https://github.com/kamaljitkaur98/book-store-pos-android-app"
+  },
+  "4": {
+    "title": "Netra",
+    "tagline": "ML-based cataract detection and severity classification",
+    "description": "Machine learning system for automated cataract detection and severity classification to support early diagnosis in ophthalmology.",
+    "lineone": "Achieved 96% accuracy in cataract detection using SIFT-GLCM feature extraction with classical ML models, and 97.66% validation accuracy for severity classification using CNN architectures including SqueezeNet, MobileNet, and VGG16.",
+    "lastone": "Developed a Flask-based web interface to visualize predictions and published Phase 1 results at the ICAIAA 2021 conference for binary cataract classification.",
+    "technologies": ["material-icon-theme:python", "devicon:opencv-wordmark", "devicon:scikitlearn", "devicon:tensorflow"],
+    "image": "/1.png",
+    "github": "https://github.com/kamaljitkaur98/Cataract-Detection-and-Classification"
+  }
 }

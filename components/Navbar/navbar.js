@@ -19,24 +19,24 @@ export default function Navbar(){
                         <Icon icon="icon-park-outline:hamburger-button" className={`navbar-toggler-icon ${styles.icon}`}></Icon>
                         {/* <span className={`navbar-toggler-icon ${styles.icon}`}></span> */}
                     </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav nav-fill w-100">
-                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav nav-fill w-100">
+                        <li className="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                             <Link href="/#main" className={` ${styles.navlink}`}> HOME </Link>
                         </li>
-                        <li class="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <li className="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
                             <Link href="/#background" className={` ${styles.navlink}`}> BACKGROUND </Link> 
                         </li>
-                        <li class="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <li className="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
                             <Link href="/#projects" className={` ${styles.navlink}`}> PROJECTS </Link>  
                         </li>
-                        <li class="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <li className="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
                             <Link href="/#positions" className={` ${styles.navlink}`}> VOLUNTEER </Link>  
                         </li>
-                        <li class="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <li className="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
                             <Link href="/#connect" onClick={toggle} className={` ${styles.navlink}`}> CONNECT </Link>
                         </li>
-                        <li class="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <li className="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
                             <a className={` ${styles.navlink}`} href="./Kamaljit_Aulakh_Resume.pdf" download>RESUME</a> 
                         </li>
                     </ul>
