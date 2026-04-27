@@ -7,43 +7,6 @@ I am currently pursuing a Master's in Computer Science at Syracuse University. W
  👨🏻‍💻 Security for web applications <br/>
  🚀 System design for scalable systems
 
-## Below is a collection of some technologies I enjoy working with
-
-<div style="display: flex; gap: 30px; align-items: center;">
-<img src="https://cdn.simpleicons.org/javascript/yellow" alt="JavaScript" width="30" height="30" />
-
-<img src="https://cdn.simpleicons.org/python" alt="python" width="50" height="50" />
-
-<img src="https://cdn.simpleicons.org/kotlin/7F52FF" alt="kotlin" width="50" height="50">
-
-<img src="https://cdn.simpleicons.org/nodedotjs" alt="nodedotjs" width="50" height="50">
-
-<img src="https://cdn.simpleicons.org/MongoDB" alt="mongodb" width="50" height="50">
-
-<img src="https://cdn.simpleicons.org/MySQL" alt="mysql" width="50" height="50">
-
-<img src="https://cdn.simpleicons.org/docker" alt="docker" width="50" height="50">
-
-<img src="https://cdn.simpleicons.org/springboot" alt="springboot" width="50" height="50">
-
-<img src="https://cdn.simpleicons.org/kubernetes/326CE5" alt="kubernetes" width="50" height="50">
-
-<img src="https://cdn.simpleicons.org/amazons3/569A31" alt="amazons3" width="50" height="50">
-
-<img src="https://cdn.simpleicons.org/nextdotjs/00000" alt="nextdotjs" width="50" height="50">
-
-<img src="https://cdn.simpleicons.org/gocd/00000" alt="gocd" width="50" height="50">
-
-<img src="https://cdn.simpleicons.org/aerospike/00000" alt="aerospike" width="50" height="50">
-
-<img src="https://cdn.simpleicons.org/gocd/C22127" alt="gocd" width="50" height="50">
-
-<img src="https://cdn.simpleicons.org/linux/FCC624" alt="linux" width="50" height="50">
-
-<img src="https://cdn.simpleicons.org/helm/0F1689" alt="helm" width="50" height="50">
-
-</div>
-
 
 <div id="badges" align="center" style="margin-top:70px">
   <a href="https://www.linkedin.com/in/kamalkaur99/">
